@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1713720026606838
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4764536298206449}
+  - 111: {fileID: 111471749868089850}
+  - 114: {fileID: 114074574173622597}
+  m_Layer: 0
+  m_Name: BerserkCape_Up2
+  m_TagString: cape_BloodyDemon
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1870052355514694
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4619588435490889}
+  - 33: {fileID: 33339582923618074}
+  - 23: {fileID: 23641027792434398}
+  m_Layer: 0
+  m_Name: cape_ BloodyDemon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4764536298206449
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1713720026606838}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4619588435490889}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!111 &111471749868089850
+Animation:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1713720026606838}
+  m_Enabled: 1
+  m_Animation: {fileID: 7400000, guid: dee0117c28bf7f14484793bf0ea4f29a, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: dee0117c28bf7f14484793bf0ea4f29a, type: 2}
+  - {fileID: 7400000, guid: a9ba7977953b5b44db76a4005329d72a, type: 2}
+  - {fileID: 7400000, guid: fb39fa36523510747b63c3450239f6d4, type: 2}
+  - {fileID: 7400000, guid: a56bc271b888dc44382d15ccb45fc947, type: 2}
+  - {fileID: 7400000, guid: d14533de30b452142a2cca7627547e7a, type: 2}
+  - {fileID: 7400000, guid: e23d1f904c26ecb4a9f9ad5860f32313, type: 2}
+  - {fileID: 7400000, guid: 6c03e8c3aa01b394e89ffdccb01cb380, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!114 &114074574173622597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1713720026606838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e07982b1239007add36c58bf68c4440, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  tier: 2
+  scaleShop: 150
+  positionShop: {x: -2.807129, y: -0.04610443, z: 0.196312}
+  rotationShop: {x: 0, y: 30, z: -15}
+  localizeKey: Key_1101
+--- !u!4 &4619588435490889
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1870052355514694}
+  m_LocalRotation: {x: 0.056531213, y: 0.7048434, z: -0.056531213, w: 0.7048434}
+  m_LocalPosition: {x: -0.14626159, y: 1.4976315, z: 0.009140319}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4764536298206449}
+  m_RootOrder: 0
+--- !u!33 &33339582923618074
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1870052355514694}
+  m_Mesh: {fileID: 4300000, guid: 71a1382bcf1a3234d8c19e59331268c0, type: 2}
+--- !u!23 &23641027792434398
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1870052355514694}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: e23871a8c1c627e4b976e087fc5dec19, type: 2}
+  m_SubsetIndices: []
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1713720026606838}
+  m_IsPrefabParent: 1

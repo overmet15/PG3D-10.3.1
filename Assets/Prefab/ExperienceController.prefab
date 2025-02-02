@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1342266567474001
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4920009772269481}
+  - 114: {fileID: 114770475915500630}
+  m_Layer: 0
+  m_Name: ExperienceController
+  m_TagString: ExperienceController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4920009772269481
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1342266567474001}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114770475915500630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1342266567474001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09227ec1424223ed2f8cf0d95640d137, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  isMenu: 1
+  isConnectScene: 0
+  currentLevelForEditor: 1
+  marks:
+  - {fileID: 2800000, guid: 1208a9dcb2aa9784ea880f268f25d1fe, type: 3}
+  - {fileID: 2800000, guid: 1208a9dcb2aa9784ea880f268f25d1fe, type: 3}
+  - {fileID: 2800000, guid: 8a1cf5161fb6367419660317260f70a5, type: 3}
+  - {fileID: 2800000, guid: 85dee9000ecd25f40928cb5d0e6aa220, type: 3}
+  - {fileID: 2800000, guid: 6590e8303847865419049d574c333e78, type: 3}
+  - {fileID: 2800000, guid: 102e59d4f550c1f4d82cb8ae26aaad22, type: 3}
+  - {fileID: 2800000, guid: d27a02865dda9f146813c43a847008d3, type: 3}
+  - {fileID: 2800000, guid: dc48d682d3f20944e9a62768ecc9640a, type: 3}
+  - {fileID: 2800000, guid: 1381680de53632a4f9d02cdb48c6c6ea, type: 3}
+  - {fileID: 2800000, guid: d48b30d75e86aca4f96b7b97e0ae9498, type: 3}
+  - {fileID: 2800000, guid: d046f7f9a4ce6f942b757af3704d73dc, type: 3}
+  - {fileID: 2800000, guid: fa7da218434afcf4ab0287d9dc2ab491, type: 3}
+  - {fileID: 2800000, guid: 4fa0b522f0911c74f9a15a6f1d3555fd, type: 3}
+  - {fileID: 2800000, guid: 84bb42b4906cdfa449c89ac09f92c382, type: 3}
+  - {fileID: 2800000, guid: 66cb75b696ecf6e4d8c44b913a40b8f1, type: 3}
+  - {fileID: 2800000, guid: 3403551776b9db14887b559c148eea91, type: 3}
+  - {fileID: 2800000, guid: 5f7b2028b1b0e4743bc613996b0a65bc, type: 3}
+  - {fileID: 2800000, guid: 08392a252be9bbe488a07f37a1c67e4e, type: 3}
+  - {fileID: 2800000, guid: 3e7eeaa0d9dd26d4db139cf6a4150a12, type: 3}
+  - {fileID: 2800000, guid: 4087ee3004395f74e902c24a0daf0382, type: 3}
+  - {fileID: 2800000, guid: c33ce4328009faf46a7123a3fdf16abb, type: 3}
+  - {fileID: 2800000, guid: e95c1d76b00e84a4897874286e78bb37, type: 3}
+  - {fileID: 2800000, guid: ca96e8a505764d34da8206e9186d9714, type: 3}
+  - {fileID: 2800000, guid: 3d35bf4e46e746841afa91bb49290239, type: 3}
+  - {fileID: 2800000, guid: d815031ef35fc0f4291bed6a4305054c, type: 3}
+  - {fileID: 2800000, guid: 4eff4324f3acef848b383ead0d61085d, type: 3}
+  - {fileID: 2800000, guid: 0e4cbb12f3cbc6c44909fc9764724b29, type: 3}
+  - {fileID: 2800000, guid: 2e00d2d60720e9f4abe9946c90fd31ef, type: 3}
+  - {fileID: 2800000, guid: 030e7bda0feadf34d8009d777794d458, type: 3}
+  - {fileID: 2800000, guid: 312eeea268b6aa24099a6393dcc8328f, type: 3}
+  - {fileID: 2800000, guid: f2997d0b2dbadaa4caee79ea38e60fc5, type: 3}
+  - {fileID: 2800000, guid: 1438b9791b5e933499abefeb3613eee8, type: 3}
+  - {fileID: 2800000, guid: a149ae32640ef9d4384360086025812e, type: 3}
+  - {fileID: 2800000, guid: 7ede09987f1056846be21aff689bfac6, type: 3}
+  - {fileID: 2800000, guid: 93ea9a5f3c5ab28478a3a7b9eaaa1973, type: 3}
+  - {fileID: 2800000, guid: 46043c2c19e74c74a87b815ef86bba9b, type: 3}
+  - {fileID: 2800000, guid: c58bbab9d10ea70478f479bf4af4e0bc, type: 3}
+  isShowNextPlashka: 0
+  posRanks: {x: 0, y: 0}
+  oldCurrentLevel: 0
+  isShowAdd: 0
+  exp_1: {fileID: 8300000, guid: a61f60c4b3cc52d46b2c756f023279c3, type: 3}
+  exp_2: {fileID: 8300000, guid: 3ccefa0323385b3448a3de7211207b6d, type: 3}
+  exp_3: {fileID: 8300000, guid: 35daf12055187da4880b093d1006af04, type: 3}
+  Tierup: {fileID: 8300000, guid: ecf8d2718c662934f9c6de4ab7b2c591, type: 3}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1342266567474001}
+  m_IsPrefabParent: 1

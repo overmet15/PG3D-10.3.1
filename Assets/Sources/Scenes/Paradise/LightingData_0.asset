@@ -1,0 +1,1736 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1120 &112000000
+LightingDataAsset:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: LightingData
+  m_Lightmaps:
+  - m_Lightmap: {fileID: 2800000, guid: 1386c69ba4a612c44844c130db4afc1b, type: 2}
+    m_IndirectLightmap: {fileID: 0}
+  m_LightProbes: {fileID: 25800000, guid: a6a2473dfb83bfd4c9d6f89b0a4d7120, type: 2}
+  m_BakedAmbientProbeInLinear:
+    sh[ 0]: 0
+    sh[ 1]: 0
+    sh[ 2]: 0
+    sh[ 3]: 0
+    sh[ 4]: 0
+    sh[ 5]: 0
+    sh[ 6]: 0
+    sh[ 7]: 0
+    sh[ 8]: 0
+    sh[ 9]: 0
+    sh[10]: 0
+    sh[11]: 0
+    sh[12]: 0
+    sh[13]: 0
+    sh[14]: 0
+    sh[15]: 0
+    sh[16]: 0
+    sh[17]: 0
+    sh[18]: 0
+    sh[19]: 0
+    sh[20]: 0
+    sh[21]: 0
+    sh[22]: 0
+    sh[23]: 0
+    sh[24]: 0
+    sh[25]: 0
+    sh[26]: 0
+  m_LightmappedRendererData:
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.040439375, y: 0.040439375, z: 0.66878736, w: 0.040857658}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.040788077, y: 0.040788077, z: -0.00015932843, w: 0.2542352}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.040788077, y: 0.040788077, z: -0.00015932843, w: 0.5467157}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.040439375, y: 0.040439375, z: -0.00015796631, w: 0.29476392}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.03204953, y: 0.03204953, z: -0.00012519347, w: 0.3358123}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.03204953, y: 0.03204953, z: 0.08288262, w: 0.6751678}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.040788077, y: 0.040788077, z: 0.058922704, w: 0.19417661}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.03204953, y: 0.03204953, z: 0.5941131, w: 0.10583184}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.040788077, y: 0.040788077, z: 0.5330438, w: -0.00015932843}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.03143598, y: 0.03143598, z: 0.5941155, w: 0.07360767}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.040788077, y: 0.040788077, z: 0.079918794, w: 0.84652036}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.03204953, y: 0.03204953, z: 0.084835745, w: 0.9271209}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: ce4626d9a8b1a804dba6eb5a751a72fe, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.018753259, y: 0.018753259, z: 0.09855956, w: 0.8871338}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.040788077, y: 0.040788077, z: 0.04134458, w: 0.50618833}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.040439375, y: 0.040439375, z: 0.4207405, w: 0.13216625}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.040788077, y: 0.040788077, z: -0.00015932843, w: 0.715661}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.006435422, y: 0.006435422, z: 0.09177174, w: 0.24216236}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.021612236, y: 0.021612236, z: 0.09806011, w: 0.41641948}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.040439375, y: 0.040439375, z: 0.81771314, w: -0.00015796631}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.006435422, y: 0.006435422, z: 0.075170174, w: 0.18552174}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.02112105, y: 0.02112105, z: 0.56144094, w: 0.16300343}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.03204953, y: 0.03204953, z: 0.7093475, w: 0.040890433}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.03204953, y: 0.03204953, z: 0.66882014, w: 0.15758964}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.0064155883, y: 0.0064155883, z: 0.093724936, w: 0.28317806}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.03204953, y: 0.03204953, z: 0.89049983, w: -0.00012519347}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.02112105, y: 0.02112105, z: 0.0882964, w: 0.65226126}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.006435422, y: 0.006435422, z: 0.055150643, w: 0.28708422}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.018753259, y: 0.018753259, z: 0.09074706, w: 0.8207275}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.040788077, y: 0.040788077, z: -0.00015932843, w: 0.50618833}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.040439375, y: 0.040439375, z: 0.7771858, w: -0.00015796631}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.028496016, y: 0.028496016, z: -0.00011131256, w: 0.16541603}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: ce4626d9a8b1a804dba6eb5a751a72fe, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.009334994, y: 0.009334994, z: 0.059045568, w: 0.23482682}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: ce4626d9a8b1a804dba6eb5a751a72fe, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.027024323, y: 0.027024323, z: 0.53358585, w: 0.16298038}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.004923704, y: 0.004923704, z: 0.06541046, w: 0.18552764}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: ce4626d9a8b1a804dba6eb5a751a72fe, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.0039513493, y: 0.0039513493, z: 0.11180097, w: 0.14695722}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: ce4626d9a8b1a804dba6eb5a751a72fe, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.0039513493, y: 0.0039513493, z: 0.10008222, w: 0.15672284}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: ce4626d9a8b1a804dba6eb5a751a72fe, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.0039513493, y: 0.0039513493, z: 0.054672066, w: 0.18992597}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: ce4626d9a8b1a804dba6eb5a751a72fe, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.0039513493, y: 0.0039513493, z: 0.082992375, w: 0.15672284}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: ce4626d9a8b1a804dba6eb5a751a72fe, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.0039513493, y: 0.0039513493, z: 0.07810956, w: 0.15672284}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: ce4626d9a8b1a804dba6eb5a751a72fe, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.019209394, y: 0.019209394, z: 0.09855778, w: 0.90666324}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.016303273, y: 0.016303273, z: 0.06585428, w: 0.9701512}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.31602082, y: 0.31602082, z: 0.66308594, w: 0.19140625}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: ce4626d9a8b1a804dba6eb5a751a72fe, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.004925017, y: 0.004925017, z: 0.11716826, w: 0.15427764}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: ce4626d9a8b1a804dba6eb5a751a72fe, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.013295993, y: 0.013295993, z: 0.10492853, w: 0.12445978}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: ce4626d9a8b1a804dba6eb5a751a72fe, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.0014778278, y: 0.0014778278, z: 0.07274813, w: 0.16259189}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: ce4626d9a8b1a804dba6eb5a751a72fe, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.12516545, y: 0.12516545, z: -0.00048892753, w: -0.00048892753}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.023597999, y: 0.023597999, z: 0.041411728, w: 0.97012264}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.0024570248, y: 0.0024570248, z: 0.0678615, w: 0.1616115}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.023082536, y: 0.023082536, z: -9.0166155E-05, w: 0.96768326}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.14825279, y: 0.14825279, z: 0.27246094, w: 0.041015625}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.050131187, y: 0.050131187, z: 0.4207026, w: 0.0408198}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: ce4626d9a8b1a804dba6eb5a751a72fe, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.019681249, y: 0.019681249, z: 0.5131067, w: 0.16300906}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.0049203117, y: 0.0049203117, z: 0.072734684, w: 0.15671906}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.004937927, y: 0.004937927, z: 0.06736352, w: 0.2870901}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.0054394878, y: 0.0054394878, z: 0.06199047, w: 0.28708813}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.0049295803, y: 0.0049295803, z: 0.059551056, w: 0.18552762}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.004441046, y: 0.004441046, z: 0.117170155, w: 0.15965062}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.003958944, y: 0.003958944, z: 0.08738688, w: 0.24656656}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.003958944, y: 0.003958944, z: 0.11180094, w: 0.16062906}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.0039513493, y: 0.0039513493, z: 0.1005705, w: 0.249008}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.0039513493, y: 0.0039513493, z: 0.09178144, w: 0.24949628}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: ce4626d9a8b1a804dba6eb5a751a72fe, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.0039513493, y: 0.0039513493, z: 0.11668378, w: 0.14695722}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: ce4626d9a8b1a804dba6eb5a751a72fe, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.0039513493, y: 0.0039513493, z: 0.0693205, w: 0.2465666}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: ce4626d9a8b1a804dba6eb5a751a72fe, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.0039513493, y: 0.0039513493, z: 0.054672066, w: 0.18553144}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: ce4626d9a8b1a804dba6eb5a751a72fe, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.0039513493, y: 0.0039513493, z: 0.07420331, w: 0.2465666}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: ce4626d9a8b1a804dba6eb5a751a72fe, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.0039513493, y: 0.0039513493, z: 0.067855656, w: 0.15721112}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: ce4626d9a8b1a804dba6eb5a751a72fe, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.019681249, y: 0.019681249, z: 0.4925989, w: 0.16300906}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: ce4626d9a8b1a804dba6eb5a751a72fe, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.019681249, y: 0.019681249, z: 0.10295046, w: 0.25431764}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: ce4626d9a8b1a804dba6eb5a751a72fe, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.019681249, y: 0.019681249, z: 0.100509055, w: 0.19425906}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: ce4626d9a8b1a804dba6eb5a751a72fe, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.019681249, y: 0.019681249, z: 0.05461062, w: 0.16545047}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: ce4626d9a8b1a804dba6eb5a751a72fe, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.019681249, y: 0.019681249, z: 0.07511843, w: 0.16545047}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: ce4626d9a8b1a804dba6eb5a751a72fe, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.2186894, y: 0.2186894, z: 0.3125, w: 0.73095703}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.009854989, y: 0.009854989, z: 0.082969315, w: 0.28316462}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.024610627, y: 0.024610627, z: 0.02920074, w: 0.1654312}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.03098718, y: 0.03098718, z: 0.09069927, w: 0.7562266}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.0074186656, y: 0.0074186656, z: 0.104951486, w: 0.15426789}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: ce4626d9a8b1a804dba6eb5a751a72fe, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.08792449, y: 0.08792449, z: -0.00034345503, w: 0.5870589}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: ce4626d9a8b1a804dba6eb5a751a72fe, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.15030016, y: 0.15030016, z: 0.12245976, w: 0.040428516}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.008422778, y: 0.008422778, z: 0.10494757, w: 0.13815069}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.008422778, y: 0.008422778, z: 0.07369757, w: 0.28317022}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.5400633, y: 0.5400633, z: 0.123046875, w: 0.19140625}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.09773098, y: 0.09773098, z: -0.00038176164, w: 0.36827058}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.18889499, y: 0.18889499, z: 0.123046875, w: 0.73095703}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.025048235, y: 0.025048235, z: 0.9227537, w: -9.784467E-05}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: ce4626d9a8b1a804dba6eb5a751a72fe, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.03585765, y: 0.03585765, z: 0.6282779, w: 0.122906804}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: ce4626d9a8b1a804dba6eb5a751a72fe, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.042576265, y: 0.042576265, z: 0.041503906, w: 0.9272461}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.21652977, y: 0.21652977, z: 0.66224015, w: 0.5069667}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.022765545, y: 0.022765545, z: 0.0902431, w: 0.33584857}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.08008369, y: 0.08008369, z: -0.00031282692, w: 0.8463669}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.004424087, y: 0.004424087, z: 0.094709285, w: 0.156721}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.09059617, y: 0.09059617, z: -0.0003538913, w: 0.7559938}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.03444788, y: 0.03444788, z: 0.6688107, w: 0.12291231}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.059476063, y: 0.059476063, z: -0.00023232837, w: 0.19410361}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.028496016, y: 0.028496016, z: 0.07361916, w: 0.25428322}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.12229167, y: 0.12229167, z: 0.471202, w: 0.040537924}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.024610614, y: 0.024610614, z: 0.09560699, w: 0.1654312}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.0054553375, y: 0.0054553375, z: 0.114236504, w: 0.1454865}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: ce4626d9a8b1a804dba6eb5a751a72fe, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.01233767, y: 0.01233767, z: 0.11030337, w: 0.65229553}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.03370771, y: 0.03370771, z: 0.08482926, w: 0.9598293}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.040788077, y: 0.040788077, z: 0.450036, w: -0.00015932843}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.040439375, y: 0.040439375, z: 0.62826, w: 0.040857658}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: ce4626d9a8b1a804dba6eb5a751a72fe, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.006435422, y: 0.006435422, z: 0.114232674, w: 0.13815846}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.023085799, y: 0.023085799, z: 0.032136384, w: 0.33584732}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.040439375, y: 0.040439375, z: 0.3680061, w: -0.00015796631}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.040439375, y: 0.040439375, z: 0.08187328, w: 0.71566236}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.018753259, y: 0.018753259, z: 0.08000487, w: 0.8871338}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.040788077, y: 0.040788077, z: 0.4915399, w: -0.00015932843}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.040788077, y: 0.040788077, z: -0.00015932843, w: 0.9270868}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: ce4626d9a8b1a804dba6eb5a751a72fe, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.010825827, y: 0.010825827, z: 0.08052412, w: 0.23482099}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.040788077, y: 0.040788077, z: 0.40853208, w: -0.00015932843}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.040788077, y: 0.040788077, z: 0.32650083, w: -0.00015932843}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: ce4626d9a8b1a804dba6eb5a751a72fe, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.0064155883, y: 0.0064155883, z: 0.108373374, w: 0.32761165}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.040788077, y: 0.040788077, z: -0.00015932843, w: 0.465661}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: ce4626d9a8b1a804dba6eb5a751a72fe, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.006435422, y: 0.006435422, z: 0.08054127, w: 0.2465569}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.040788077, y: 0.040788077, z: 0.04134458, w: 0.5467157}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: ce4626d9a8b1a804dba6eb5a751a72fe, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.0064155883, y: 0.0064155883, z: 0.101537436, w: 0.32761165}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: ce4626d9a8b1a804dba6eb5a751a72fe, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.0054129134, y: 0.0054129134, z: 0.11521323, w: 0.30222496}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.040439375, y: 0.040439375, z: 0.6150764, w: -0.00015796631}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: ce4626d9a8b1a804dba6eb5a751a72fe, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.006435422, y: 0.006435422, z: 0.040502205, w: 0.15720142}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.040439375, y: 0.040439375, z: 0.4207405, w: 0.09115063}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.040439375, y: 0.040439375, z: 0.12288891, w: -0.00015796631}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.03370771, y: 0.03370771, z: 0.5941066, w: 0.040883955}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: ce4626d9a8b1a804dba6eb5a751a72fe, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.0064155883, y: 0.0064155883, z: 0.081029624, w: 0.32761165}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.040439375, y: 0.040439375, z: 0.04134594, w: 0.71566236}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.03204953, y: 0.03204953, z: 0.04040215, w: 0.12438653}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.03204953, y: 0.03204953, z: 0.041378714, w: 0.25426933}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.040788077, y: 0.040788077, z: 0.94857115, w: -0.00015932843}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.040439375, y: 0.040439375, z: 0.6961311, w: -0.00015796631}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: ce4626d9a8b1a804dba6eb5a751a72fe, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.006435422, y: 0.006435422, z: 0.061010018, w: 0.15720142}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.040439375, y: 0.040439375, z: 0.65560377, w: -0.00015796631}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: ce4626d9a8b1a804dba6eb5a751a72fe, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.006435422, y: 0.006435422, z: 0.08200611, w: 0.18552174}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: ce4626d9a8b1a804dba6eb5a751a72fe, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.0064155883, y: 0.0064155883, z: 0.08786556, w: 0.32761165}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.03204953, y: 0.03204953, z: 0.088253714, w: 0.5872772}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.040439375, y: 0.040439375, z: 0.2039436, w: -0.00015796631}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.040439375, y: 0.040439375, z: 0.16341625, w: -0.00015796631}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.015226803, y: 0.015226803, z: 0.023866301, w: 0.96771395}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: ce4626d9a8b1a804dba6eb5a751a72fe, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.0064155883, y: 0.0064155883, z: 0.11520931, w: 0.2948968}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: ce4626d9a8b1a804dba6eb5a751a72fe, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.010825827, y: 0.010825827, z: 0.11177412, w: 0.2372624}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.020138675, y: 0.020138675, z: 0.471601, w: 0.16300727}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.040439375, y: 0.040439375, z: 0.73665845, w: -0.00015796631}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.040788077, y: 0.040788077, z: 0.04134458, w: 0.67513365}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.03143598, y: 0.03143598, z: 0.088256106, w: 0.6199944}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.006435422, y: 0.006435422, z: 0.048314705, w: 0.28708422}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.03204953, y: 0.03204953, z: 0.5941131, w: 0.13854668}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.040788077, y: 0.040788077, z: 0.28499693, w: -0.00015932843}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.040439375, y: 0.040439375, z: 0.66878736, w: 0.08187328}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.006435422, y: 0.006435422, z: 0.10495533, w: 0.14694752}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.040788077, y: 0.040788077, z: -0.00015932843, w: 0.67513365}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.022103423, y: 0.022103423, z: 0.10049959, w: 0.21426913}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.040439375, y: 0.040439375, z: 0.62826, w: 0.08187328}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.040788077, y: 0.040788077, z: 0.04134458, w: 0.465661}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.0064155883, y: 0.0064155883, z: 0.088842124, w: 0.18552181}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.040439375, y: 0.040439375, z: -0.00015796631, w: 0.12435375}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.006435422, y: 0.006435422, z: 0.059056893, w: 0.24460377}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.03370771, y: 0.03370771, z: 0.08092301, w: 0.2947902}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.006435422, y: 0.006435422, z: 0.05417408, w: 0.15720142}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.006435422, y: 0.006435422, z: 0.08786549, w: 0.15671314}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.02112105, y: 0.02112105, z: 0.09806202, w: 0.43888235}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.040439375, y: 0.040439375, z: 0.24447094, w: -0.00015796631}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.0054129134, y: 0.0054129134, z: 0.11521323, w: 0.30857262}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.040439375, y: 0.040439375, z: 0.5745491, w: -0.00015796631}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.010825827, y: 0.010825827, z: 0.06929365, w: 0.23482099}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.006435422, y: 0.006435422, z: 0.047338143, w: 0.15720142}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.03204953, y: 0.03204953, z: 0.08288262, w: 0.54674983}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.018753259, y: 0.018753259, z: 0.10295409, w: 0.2743408}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.006435422, y: 0.006435422, z: 0.09177174, w: 0.23483814}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.040439375, y: 0.040439375, z: 0.040369377, w: 0.29476392}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.018753259, y: 0.018753259, z: 0.08000487, w: 0.906665}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.03204953, y: 0.03204953, z: 0.09069512, w: 0.78796077}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.010825827, y: 0.010825827, z: 0.10054365, w: 0.2372624}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.022594612, y: 0.022594612, z: 0.09805627, w: 0.36856407}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.023576986, y: 0.023576986, z: 0.098052435, w: 0.39199775}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.03370771, y: 0.03370771, z: 0.056020673, w: 0.33580583}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.03143598, y: 0.03143598, z: 0.072631106, w: 0.12438892}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.006435422, y: 0.006435422, z: 0.041478768, w: 0.28708422}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.03204953, y: 0.03204953, z: 0.08288262, w: 0.5062225}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.0064155883, y: 0.0064155883, z: 0.0947015, w: 0.32761165}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.03370771, y: 0.03370771, z: 0.08287614, w: 0.46568865}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.03204953, y: 0.03204953, z: 0.85827327, w: -0.00012519347}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  - uvMesh: {fileID: 4300000, guid: 088246329523fd148b0964e603c28c35, type: 2}
+    terrainDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    terrainChunkDynamicUVST: {x: 0, y: 0, z: 0, w: 0}
+    lightmapIndex: 0
+    lightmapIndexDynamic: 65535
+    lightmapST: {x: 0.0054394878, y: 0.0054394878, z: 0.11179516, w: 0.15427563}
+    lightmapSTDynamic: {x: 1, y: 1, z: 0, w: 0}
+  m_LightmappedRendererDataIDs:
+  - targetObject: 1706
+    targetPrefab: 0
+  - targetObject: 1707
+    targetPrefab: 0
+  - targetObject: 1709
+    targetPrefab: 0
+  - targetObject: 1710
+    targetPrefab: 0
+  - targetObject: 1711
+    targetPrefab: 0
+  - targetObject: 1812
+    targetPrefab: 0
+  - targetObject: 1813
+    targetPrefab: 0
+  - targetObject: 1814
+    targetPrefab: 0
+  - targetObject: 1815
+    targetPrefab: 0
+  - targetObject: 1816
+    targetPrefab: 0
+  - targetObject: 1818
+    targetPrefab: 0
+  - targetObject: 1819
+    targetPrefab: 0
+  - targetObject: 1820
+    targetPrefab: 0
+  - targetObject: 1821
+    targetPrefab: 0
+  - targetObject: 1822
+    targetPrefab: 0
+  - targetObject: 1823
+    targetPrefab: 0
+  - targetObject: 1824
+    targetPrefab: 0
+  - targetObject: 1825
+    targetPrefab: 0
+  - targetObject: 1826
+    targetPrefab: 0
+  - targetObject: 1827
+    targetPrefab: 0
+  - targetObject: 1828
+    targetPrefab: 0
+  - targetObject: 1829
+    targetPrefab: 0
+  - targetObject: 1830
+    targetPrefab: 0
+  - targetObject: 1831
+    targetPrefab: 0
+  - targetObject: 1832
+    targetPrefab: 0
+  - targetObject: 1833
+    targetPrefab: 0
+  - targetObject: 1834
+    targetPrefab: 0
+  - targetObject: 1835
+    targetPrefab: 0
+  - targetObject: 1836
+    targetPrefab: 0
+  - targetObject: 1837
+    targetPrefab: 0
+  - targetObject: 1839
+    targetPrefab: 0
+  - targetObject: 1841
+    targetPrefab: 0
+  - targetObject: 1842
+    targetPrefab: 0
+  - targetObject: 1843
+    targetPrefab: 0
+  - targetObject: 1844
+    targetPrefab: 0
+  - targetObject: 1845
+    targetPrefab: 0
+  - targetObject: 1846
+    targetPrefab: 0
+  - targetObject: 1847
+    targetPrefab: 0
+  - targetObject: 1848
+    targetPrefab: 0
+  - targetObject: 1849
+    targetPrefab: 0
+  - targetObject: 1850
+    targetPrefab: 0
+  - targetObject: 1851
+    targetPrefab: 0
+  - targetObject: 1852
+    targetPrefab: 0
+  - targetObject: 1853
+    targetPrefab: 0
+  - targetObject: 1854
+    targetPrefab: 0
+  - targetObject: 1855
+    targetPrefab: 0
+  - targetObject: 1856
+    targetPrefab: 0
+  - targetObject: 1857
+    targetPrefab: 0
+  - targetObject: 1858
+    targetPrefab: 0
+  - targetObject: 1859
+    targetPrefab: 0
+  - targetObject: 1860
+    targetPrefab: 0
+  - targetObject: 1861
+    targetPrefab: 0
+  - targetObject: 1862
+    targetPrefab: 0
+  - targetObject: 1863
+    targetPrefab: 0
+  - targetObject: 1864
+    targetPrefab: 0
+  - targetObject: 1865
+    targetPrefab: 0
+  - targetObject: 1866
+    targetPrefab: 0
+  - targetObject: 1867
+    targetPrefab: 0
+  - targetObject: 1868
+    targetPrefab: 0
+  - targetObject: 1869
+    targetPrefab: 0
+  - targetObject: 1870
+    targetPrefab: 0
+  - targetObject: 1871
+    targetPrefab: 0
+  - targetObject: 1872
+    targetPrefab: 0
+  - targetObject: 1873
+    targetPrefab: 0
+  - targetObject: 1874
+    targetPrefab: 0
+  - targetObject: 1875
+    targetPrefab: 0
+  - targetObject: 1876
+    targetPrefab: 0
+  - targetObject: 1877
+    targetPrefab: 0
+  - targetObject: 1878
+    targetPrefab: 0
+  - targetObject: 1879
+    targetPrefab: 0
+  - targetObject: 1880
+    targetPrefab: 0
+  - targetObject: 1881
+    targetPrefab: 0
+  - targetObject: 1882
+    targetPrefab: 0
+  - targetObject: 1883
+    targetPrefab: 0
+  - targetObject: 1884
+    targetPrefab: 0
+  - targetObject: 1885
+    targetPrefab: 0
+  - targetObject: 1886
+    targetPrefab: 0
+  - targetObject: 1887
+    targetPrefab: 0
+  - targetObject: 1888
+    targetPrefab: 0
+  - targetObject: 1889
+    targetPrefab: 0
+  - targetObject: 1890
+    targetPrefab: 0
+  - targetObject: 1891
+    targetPrefab: 0
+  - targetObject: 1892
+    targetPrefab: 0
+  - targetObject: 1893
+    targetPrefab: 0
+  - targetObject: 1894
+    targetPrefab: 0
+  - targetObject: 1895
+    targetPrefab: 0
+  - targetObject: 1896
+    targetPrefab: 0
+  - targetObject: 1897
+    targetPrefab: 0
+  - targetObject: 1898
+    targetPrefab: 0
+  - targetObject: 1899
+    targetPrefab: 0
+  - targetObject: 1900
+    targetPrefab: 0
+  - targetObject: 1901
+    targetPrefab: 0
+  - targetObject: 1902
+    targetPrefab: 0
+  - targetObject: 1903
+    targetPrefab: 0
+  - targetObject: 1904
+    targetPrefab: 0
+  - targetObject: 1906
+    targetPrefab: 0
+  - targetObject: 1907
+    targetPrefab: 0
+  - targetObject: 1908
+    targetPrefab: 0
+  - targetObject: 1909
+    targetPrefab: 0
+  - targetObject: 1910
+    targetPrefab: 0
+  - targetObject: 1911
+    targetPrefab: 0
+  - targetObject: 1912
+    targetPrefab: 0
+  - targetObject: 1913
+    targetPrefab: 0
+  - targetObject: 1914
+    targetPrefab: 0
+  - targetObject: 1915
+    targetPrefab: 0
+  - targetObject: 1916
+    targetPrefab: 0
+  - targetObject: 1917
+    targetPrefab: 0
+  - targetObject: 1918
+    targetPrefab: 0
+  - targetObject: 1919
+    targetPrefab: 0
+  - targetObject: 1920
+    targetPrefab: 0
+  - targetObject: 1921
+    targetPrefab: 0
+  - targetObject: 1922
+    targetPrefab: 0
+  - targetObject: 1923
+    targetPrefab: 0
+  - targetObject: 1924
+    targetPrefab: 0
+  - targetObject: 1925
+    targetPrefab: 0
+  - targetObject: 1926
+    targetPrefab: 0
+  - targetObject: 1927
+    targetPrefab: 0
+  - targetObject: 1928
+    targetPrefab: 0
+  - targetObject: 1929
+    targetPrefab: 0
+  - targetObject: 1930
+    targetPrefab: 0
+  - targetObject: 1931
+    targetPrefab: 0
+  - targetObject: 1932
+    targetPrefab: 0
+  - targetObject: 1933
+    targetPrefab: 0
+  - targetObject: 1934
+    targetPrefab: 0
+  - targetObject: 1935
+    targetPrefab: 0
+  - targetObject: 1936
+    targetPrefab: 0
+  - targetObject: 1937
+    targetPrefab: 0
+  - targetObject: 1938
+    targetPrefab: 0
+  - targetObject: 1939
+    targetPrefab: 0
+  - targetObject: 1941
+    targetPrefab: 0
+  - targetObject: 1942
+    targetPrefab: 0
+  - targetObject: 1943
+    targetPrefab: 0
+  - targetObject: 1944
+    targetPrefab: 0
+  - targetObject: 1945
+    targetPrefab: 0
+  - targetObject: 1946
+    targetPrefab: 0
+  - targetObject: 1947
+    targetPrefab: 0
+  - targetObject: 1948
+    targetPrefab: 0
+  - targetObject: 1949
+    targetPrefab: 0
+  - targetObject: 1951
+    targetPrefab: 0
+  - targetObject: 1952
+    targetPrefab: 0
+  - targetObject: 1953
+    targetPrefab: 0
+  - targetObject: 1954
+    targetPrefab: 0
+  - targetObject: 1955
+    targetPrefab: 0
+  - targetObject: 1956
+    targetPrefab: 0
+  - targetObject: 1957
+    targetPrefab: 0
+  - targetObject: 1958
+    targetPrefab: 0
+  - targetObject: 1959
+    targetPrefab: 0
+  - targetObject: 1960
+    targetPrefab: 0
+  - targetObject: 1961
+    targetPrefab: 0
+  - targetObject: 1962
+    targetPrefab: 0
+  - targetObject: 1963
+    targetPrefab: 0
+  - targetObject: 1964
+    targetPrefab: 0
+  - targetObject: 1965
+    targetPrefab: 0
+  - targetObject: 1966
+    targetPrefab: 0
+  - targetObject: 1967
+    targetPrefab: 0
+  - targetObject: 1968
+    targetPrefab: 0
+  - targetObject: 1969
+    targetPrefab: 0
+  - targetObject: 1970
+    targetPrefab: 0
+  - targetObject: 1971
+    targetPrefab: 0
+  - targetObject: 1972
+    targetPrefab: 0
+  - targetObject: 1973
+    targetPrefab: 0
+  - targetObject: 1974
+    targetPrefab: 0
+  - targetObject: 1976
+    targetPrefab: 0
+  - targetObject: 1977
+    targetPrefab: 0
+  - targetObject: 1978
+    targetPrefab: 0
+  - targetObject: 1979
+    targetPrefab: 0
+  - targetObject: 1980
+    targetPrefab: 0
+  - targetObject: 1981
+    targetPrefab: 0
+  - targetObject: 1982
+    targetPrefab: 0
+  - targetObject: 1983
+    targetPrefab: 0
+  - targetObject: 1984
+    targetPrefab: 0
+  - targetObject: 1985
+    targetPrefab: 0
+  - targetObject: 1986
+    targetPrefab: 0
+  - targetObject: 1987
+    targetPrefab: 0
+  - targetObject: 1988
+    targetPrefab: 0
+  - targetObject: 1989
+    targetPrefab: 0
+  - targetObject: 1990
+    targetPrefab: 0
+  - targetObject: 1991
+    targetPrefab: 0
+  - targetObject: 1992
+    targetPrefab: 0
+  - targetObject: 1999
+    targetPrefab: 0
+  m_EnlightenSceneMapping:
+    m_Renderers: []
+    m_Systems: []
+    m_Probesets:
+    - serializedVersion: 2
+      Hash: 232899d3ff5e4c7c21a193843f530645
+    m_SystemAtlases: []
+    m_TerrainChunks: []
+  m_EnlightenSceneMappingRendererIDs: []
+  m_Lights:
+  - targetObject: 2843
+    targetPrefab: 0
+  - targetObject: 2844
+    targetPrefab: 0
+  - targetObject: 2845
+    targetPrefab: 0
+  - targetObject: 2846
+    targetPrefab: 0
+  - targetObject: 2847
+    targetPrefab: 0
+  - targetObject: 2848
+    targetPrefab: 0
+  - targetObject: 2849
+    targetPrefab: 0
+  - targetObject: 2850
+    targetPrefab: 0
+  - targetObject: 2851
+    targetPrefab: 0
+  - targetObject: 2852
+    targetPrefab: 0
+  - targetObject: 2853
+    targetPrefab: 0
+  - targetObject: 2854
+    targetPrefab: 0
+  - targetObject: 2855
+    targetPrefab: 0
+  - targetObject: 2856
+    targetPrefab: 0
+  - targetObject: 2857
+    targetPrefab: 0
+  - targetObject: 2858
+    targetPrefab: 0
+  - targetObject: 2859
+    targetPrefab: 0
+  - targetObject: 2860
+    targetPrefab: 0
+  - targetObject: 2861
+    targetPrefab: 0
+  - targetObject: 2862
+    targetPrefab: 0
+  - targetObject: 2863
+    targetPrefab: 0
+  - targetObject: 2864
+    targetPrefab: 0
+  - targetObject: 2865
+    targetPrefab: 0
+  - targetObject: 2866
+    targetPrefab: 0
+  - targetObject: 2867
+    targetPrefab: 0
+  - targetObject: 2868
+    targetPrefab: 0
+  - targetObject: 2869
+    targetPrefab: 0
+  - targetObject: 2870
+    targetPrefab: 0
+  - targetObject: 2871
+    targetPrefab: 0
+  - targetObject: 2872
+    targetPrefab: 0
+  m_BakedReflectionProbeCubemaps: []
+  m_BakedReflectionProbes: []
+  m_EnlightenData:

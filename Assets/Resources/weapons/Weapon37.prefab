@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1772696409300373
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4663552721296269}
+  - 114: {fileID: 114276959548037893}
+  m_Layer: 0
+  m_Name: Weapon37
+  m_TagString: CrystalCrossbow
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1190701971427258
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4444251984874378}
+  m_Layer: 0
+  m_Name: BulletSpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4663552721296269
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1772696409300373}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4444251984874378}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114276959548037893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1772696409300373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1e5daf5fcffe0869610e5f2c0a7c5e0, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  typeForLow: 14
+  InShopEffects:
+  - 1
+  - 17
+  zoomShop: 0
+  isSlowdown: 0
+  slowdownCoeff: 0
+  slowdownTime: 0
+  noFillObjects: []
+  typeTracer: 0
+  _innerPars: {fileID: 0}
+  typeDead: 0
+  gunFlash: {fileID: 0}
+  gunFlashDouble: []
+  lengthForShot: 1.4166667
+  damageByTier:
+  - 5.883335
+  - 10.13333
+  - 15.799999
+  - 15.799999
+  - 15.799999
+  - 15.799999
+  dpses:
+  - 4.152942
+  - 7.152939
+  - 11.15294
+  - 11.15294
+  - 11.15294
+  - 11.15294
+  tier: 2
+  categoryNabor: 5
+  isGrenadeWeapon: 0
+  fireRateShop: 81
+  CapacityShop: 1
+  mobilityShop: 120
+  filterMap: []
+  alternativeName: Weapon1
+  isSerialShooting: 1
+  isDaterWeapon: 0
+  daterMessage:
+  ammoInClip: 1
+  InitialAmmo: 20
+  maxAmmo: 40
+  ammoForBonusShotMelee: 10
+  isMelee: 1
+  isRoundMelee: 0
+  radiusRoundMelee: 5
+  isShotGun: 0
+  isDoubleShot: 0
+  countShots: 15
+  isShotMelee: 1
+  isZooming: 0
+  isMagic: 0
+  flamethrower: 0
+  bulletExplode: 0
+  bazooka: 0
+  countInSeriaBazooka: 1
+  stepTimeInSeriaBazooka: 0.2
+  railgun: 0
+  railName: Weapon77
+  freezer: 0
+  countReflectionRay: 1
+  grenadeLauncher: 0
+  bazookaExplosionName: Explosion1
+  bazookaExplosionRadius: 5
+  bazookaExplosionRadiusSelf: 2.5
+  bazookaImpulseRadius: 6
+  fieldOfViewZomm: 75
+  range: 60
+  damage: 220
+  speedModifier: 1.2
+  Probability: 0
+  damageRange: {x: -60, y: 60}
+  gunPosition: {x: 0, y: -1.7, z: 0}
+  inAppExtensionModifier: 10
+  meleeAngle: 8
+  multiplayerDamage: 5.883335
+  meleeAttackTimeModifier: 0.17
+  startZone: {x: 8, y: 8}
+  tekKoof: 1
+  upKoofFire: 0.5
+  maxKoof: 4
+  downKoofFirst: 0.2
+  downKoof: 0.2
+  campaignOnly: 0
+  rocketNum: 0
+  scopeNum: 0
+  scaleShop: 190.5
+  positionShop: {x: 0.54174805, y: -0.26929474, z: 0.8547785}
+  rotationShop: {x: 330.00003, y: 120.00001, z: 9.858529E-07}
+  aimCenterSprite:
+  aimPartSprite:
+  aimCornerPartSprite:
+  localizeWeaponKey: Key_0670
+  DPSRememberWhenGet: 0
+--- !u!4 &4444251984874378
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1190701971427258}
+  m_LocalRotation: {x: 0.5, y: -0.5, z: -0.5, w: -0.5}
+  m_LocalPosition: {x: 0.1745444, y: 1.3708742, z: 0.53397197}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4663552721296269}
+  m_RootOrder: 0
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1772696409300373}
+  m_IsPrefabParent: 1

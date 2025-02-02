@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1952450100236058
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4214703258707181}
+  - 111: {fileID: 111817011334629066}
+  - 114: {fileID: 114411489516243047}
+  m_Layer: 0
+  m_Name: HitmanCape_Up1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1754097713389086
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4163965762213876}
+  - 33: {fileID: 33040750788188668}
+  - 23: {fileID: 23828300556948070}
+  m_Layer: 0
+  m_Name: cape_ Archimage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4214703258707181
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1952450100236058}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4163965762213876}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!111 &111817011334629066
+Animation:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1952450100236058}
+  m_Enabled: 1
+  m_Animation: {fileID: 7400000, guid: b89daa9859862b74bae2b7b0443c7d71, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: b89daa9859862b74bae2b7b0443c7d71, type: 2}
+  - {fileID: 7400000, guid: 9757a0c18a60e674b95af77d43e31eb7, type: 2}
+  - {fileID: 7400000, guid: 209450a39a802e84fa6d39c7150301e0, type: 2}
+  - {fileID: 7400000, guid: d03e98694dfad914298b96f5a1a1eef8, type: 2}
+  - {fileID: 7400000, guid: f627f75c763753d46bdd6693d1005ccb, type: 2}
+  - {fileID: 7400000, guid: 5e7e87b43ad02b346b7210bc155e4e63, type: 2}
+  - {fileID: 7400000, guid: 732d7771c0f9e6940955c930b9b03335, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!114 &114411489516243047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1952450100236058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e07982b1239007add36c58bf68c4440, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  tier: 1
+  scaleShop: 150
+  positionShop: {x: -1.120117, y: -0.01952362, z: 0.2942598}
+  rotationShop: {x: 0, y: 30, z: -15}
+  localizeKey: Key_1095
+--- !u!4 &4163965762213876
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1754097713389086}
+  m_LocalRotation: {x: 0.056531142, y: 0.7048434, z: -0.056531142, w: 0.7048434}
+  m_LocalPosition: {x: -0.14626159, y: 1.4976315, z: 0.009140319}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4214703258707181}
+  m_RootOrder: 0
+--- !u!33 &33040750788188668
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1754097713389086}
+  m_Mesh: {fileID: 4300000, guid: 45283312d64c57c4f9a770a328272b7a, type: 2}
+--- !u!23 &23828300556948070
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1754097713389086}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: d37927a8b152e374db874adb46c6157e, type: 2}
+  m_SubsetIndices: []
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1952450100236058}
+  m_IsPrefabParent: 1

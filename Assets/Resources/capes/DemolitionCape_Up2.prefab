@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1313075192393121
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4008821067399645}
+  - 111: {fileID: 111773798676246086}
+  - 114: {fileID: 114664104425374036}
+  m_Layer: 0
+  m_Name: DemolitionCape_Up2
+  m_TagString: cape_RoyalKnight
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1363278425866763
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4822377940343124}
+  - 33: {fileID: 33869527473524756}
+  - 23: {fileID: 23603945809533471}
+  m_Layer: 0
+  m_Name: cape_RoyalKnight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4008821067399645
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1313075192393121}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4822377940343124}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!111 &111773798676246086
+Animation:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1313075192393121}
+  m_Enabled: 1
+  m_Animation: {fileID: 7400000, guid: afd2dee63e832754d9cd82caf522ec4d, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: afd2dee63e832754d9cd82caf522ec4d, type: 2}
+  - {fileID: 7400000, guid: 92c8825e8f0daa84ea955916d955cc02, type: 2}
+  - {fileID: 7400000, guid: 3e0b97d12243de0439f94ceae2f4460c, type: 2}
+  - {fileID: 7400000, guid: c45e29f253b3cf44ab82cc5261a77262, type: 2}
+  - {fileID: 7400000, guid: 1ba308bc515bb084da6bd714be71055c, type: 2}
+  - {fileID: 7400000, guid: 388079c0a4446c94882875092a8c85d3, type: 2}
+  - {fileID: 7400000, guid: 319352e5b1f8ebf479e997514f588e58, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!114 &114664104425374036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1313075192393121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e07982b1239007add36c58bf68c4440, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  tier: 2
+  scaleShop: 150
+  positionShop: {x: -6.615479, y: -0.05453491, z: 0.2321405}
+  rotationShop: {x: 0, y: 30, z: -15}
+  localizeKey: Key_1103
+--- !u!4 &4822377940343124
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1363278425866763}
+  m_LocalRotation: {x: 0.05653127, y: 0.7048434, z: -0.05653127, w: 0.7048434}
+  m_LocalPosition: {x: -0.14626159, y: 1.4976315, z: 0.009140319}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4008821067399645}
+  m_RootOrder: 0
+--- !u!33 &33869527473524756
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1363278425866763}
+  m_Mesh: {fileID: 4300000, guid: 198389d8a1a6f1642804d3ac0dc4ba51, type: 2}
+--- !u!23 &23603945809533471
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1363278425866763}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 6b0268addd4df9a47a3915529437fcdb, type: 2}
+  m_SubsetIndices: []
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1313075192393121}
+  m_IsPrefabParent: 1
