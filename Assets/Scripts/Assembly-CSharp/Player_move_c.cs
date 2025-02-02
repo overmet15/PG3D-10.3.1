@@ -5386,7 +5386,7 @@ public sealed class Player_move_c : MonoBehaviour
 		}
 	}
 
-	public void MinusLive(int idKiller, float minus, TypeKills _typeKills, int _typeWeapon = 0, string weaponName = "", int idTurret = 0)
+	public void MinusLive(NetworkViewID idKiller, float minus, TypeKills _typeKills, int _typeWeapon = 0, string weaponName = "", int idTurret = 0)
 	{
 		if (Defs.isDaterRegim || isImmortality)
 		{
@@ -5491,7 +5491,7 @@ public sealed class Player_move_c : MonoBehaviour
 		MinusLiveRPCEffects((int)_typeKills);
 	}
 
-	public void MinusLive(NetworkViewID idKiller, float minus, TypeKills _typeKills, int _typeWeapon, string nameWeapon = "", [Optional] NetworkViewID idTurret)
+	public void MinusLive(NetworkViewID idKiller, float minus, TypeKills _typeKills, int _typeWeapon, [Optional] NetworkViewID idTurret, string nameWeapon = "")
 	{
 		if (!Defs.isDaterRegim)
 		{
@@ -8136,7 +8136,8 @@ public sealed class Player_move_c : MonoBehaviour
 		}
 		else
 		{
-			playerMoveC.MinusLive(myPlayerID, num3, typeKills, (int)weaponSounds.typeDead, (!isMechActive) ? weaponSounds.gameObject.name.Replace("(Clone)", string.Empty) : "Chat_Mech");
+			// This is the shitiest thing i have ever done
+			playerMoveC.MinusLive(new NetworkViewID(), num3, typeKills, (int)weaponSounds.typeDead, (!isMechActive) ? weaponSounds.gameObject.name.Replace("(Clone)", string.Empty) : "Chat_Mech");
 		}
 	}
 

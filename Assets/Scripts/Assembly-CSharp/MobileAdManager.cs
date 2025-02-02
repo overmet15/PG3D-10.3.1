@@ -379,34 +379,34 @@ internal sealed class MobileAdManager
 
 	internal bool SwitchImageIdGroup()
 	{
-		int imageIdGroupIndex = _imageIdGroupIndex;
-		List<string> obj = AdmobImageAdUnitIds.Select(RemovePrefix).ToList();
-		string text = Json.Serialize(obj);
+		//int imageIdGroupIndex = _imageIdGroupIndex;
+		//List<string> obj = AdmobImageAdUnitIds.Select(RemovePrefix).ToList();
+		//string text = Json.Serialize(obj);
 		_imageIdGroupIndex++;
 		_imageAdUnitIdIndex = 0;
-		List<string> obj2 = AdmobImageAdUnitIds.Select(RemovePrefix).ToList();
-		string text2 = Json.Serialize(obj2);
+		//List<string> obj2 = AdmobImageAdUnitIds.Select(RemovePrefix).ToList();
+		//string text2 = Json.Serialize(obj2);
 		if (Defs.IsDeveloperBuild)
 		{
-			string message = string.Format("Switching image id group from {0} ({1}) to {2} ({3})", imageIdGroupIndex, text, _imageIdGroupIndex, text2);
-			Debug.Log(message);
+			//string message = string.Format("Switching image id group from {0} ({1}) to {2} ({3})", imageIdGroupIndex, text, _imageIdGroupIndex, text2);
+			//Debug.Log(message);
 		}
 		return PromoActionsManager.MobileAdvert.AdmobImageIdGroups.Count == 0 || _imageIdGroupIndex % PromoActionsManager.MobileAdvert.AdmobImageIdGroups.Count == 0;
 	}
 
 	internal bool SwitchVideoIdGroup()
 	{
-		int videoIdGroupIndex = _videoIdGroupIndex;
-		List<string> obj = AdmobVideoAdUnitIds.Select(RemovePrefix).ToList();
-		string text = Json.Serialize(obj);
+		//int videoIdGroupIndex = _videoIdGroupIndex;
+		//List<string> obj = AdmobVideoAdUnitIds.Select(RemovePrefix).ToList();
+		//string text = Json.Serialize(obj);
 		_videoIdGroupIndex++;
 		_videoAdUnitIdIndex = 0;
-		List<string> obj2 = AdmobVideoAdUnitIds.Select(RemovePrefix).ToList();
-		string text2 = Json.Serialize(obj2);
+		//List<string> obj2 = AdmobVideoAdUnitIds.Select(RemovePrefix).ToList();
+		//string text2 = Json.Serialize(obj2);
 		if (Defs.IsDeveloperBuild)
 		{
-			string message = string.Format("Switching video id group from {0} ({1}) to {2} ({3})", videoIdGroupIndex, text, _videoIdGroupIndex, text2);
-			Debug.Log(message);
+			//string message = string.Format("Switching video id group from {0} ({1}) to {2} ({3})", videoIdGroupIndex, text, _videoIdGroupIndex, text2);
+			//Debug.Log(message);
 		}
 		return PromoActionsManager.MobileAdvert.AdmobVideoIdGroups.Count == 0 || _videoIdGroupIndex % PromoActionsManager.MobileAdvert.AdmobVideoIdGroups.Count == 0;
 	}

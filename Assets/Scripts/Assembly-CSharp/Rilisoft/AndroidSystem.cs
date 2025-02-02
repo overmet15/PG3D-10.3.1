@@ -95,17 +95,19 @@ namespace Rilisoft
 			{
 				throw new InvalidOperationException("signatures() == null");
 			}
-			using (SHA1Managed @object = new SHA1Managed())
-			{
-				IEnumerable<byte[]> source = (from s in array
-					select s.Call<byte[]>("toByteArray", new object[0]) into s
-					where s != null
-					select s).Select(@object.ComputeHash);
-				return source.FirstOrDefault() ?? lazy.Value;
-			}
-		}
+            using (SHA1Managed @object = new SHA1Managed())
+            {
+                IEnumerable<byte[]> source = (from s in array
+                                              select s.Call<byte[]>("toByteArray", new object[0]) into s
+                                              where s != null
+                                              select s).Select<byte[], byte[]>(@object.ComputeHash);
 
-		public string GetAdvertisingId()
+                return source.FirstOrDefault() ?? lazy.Value;
+            }
+
+        }
+
+        public string GetAdvertisingId()
 		{
 			if (Application.platform != RuntimePlatform.Android)
 			{

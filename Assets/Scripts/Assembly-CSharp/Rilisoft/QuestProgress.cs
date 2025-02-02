@@ -165,7 +165,7 @@ namespace Rilisoft
 			}
 			_day = day;
 			IEnumerable<int> source = _previousQuests.Keys.Concat(_currentQuests.Keys).Distinct();
-			Dictionary<int, IList<QuestBase>> dictionary = source.ToDictionary((int s) => s, GetActiveQuestsBySlot);
+			Dictionary<int, IList<QuestBase>> dictionary = source.ToDictionary<int, int, IList<QuestBase>>((int s) => s, GetActiveQuestsBySlot);
 			ClearQuests(_previousQuests);
 			foreach (KeyValuePair<int, IList<QuestBase>> item in dictionary)
 			{
@@ -367,9 +367,9 @@ namespace Rilisoft
 						int requiredCount = Convert.ToInt32(dictionary4.TryGet("parameter") ?? ((object)1));
 						object value3 = item6.TryGet("day");
 						long day = ((!dayOption.HasValue) ? Convert.ToInt64(value3) : dayOption.Value);
-						bool rewarded = item6.TryGet("rewarded").Map(Convert.ToBoolean);
-						bool active = item6.TryGet("active").Map(Convert.ToBoolean);
-						int initialCount = item6.TryGet("currentCount").Map(Convert.ToInt32);
+						bool rewarded = item6.TryGet("rewarded").Map<object, bool>(Convert.ToBoolean);
+						bool active = item6.TryGet("active").Map<object, bool>(Convert.ToBoolean);
+						int initialCount = item6.TryGet("currentCount").Map<object, int>(Convert.ToInt32);
 						switch (text)
 						{
 						case "killInMode":
@@ -481,7 +481,7 @@ namespace Rilisoft
 		public QuestInfo GetRandomQuestInfo()
 		{
 			IEnumerable<int> source = _previousQuests.Keys.Concat(_currentQuests.Keys).Concat(_tutorialQuests.Select((QuestBase q) => q.Slot)).Distinct();
-			List<QuestInfo> list = (from qi in source.Select(GetActiveQuestInfoBySlot)
+			List<QuestInfo> list = (from qi in source.Select<int, QuestInfo>(GetActiveQuestInfoBySlot)
 				where qi.Quest != null && !qi.Quest.Rewarded
 				select qi).ToList();
 			if (list.Count < 1)
@@ -521,7 +521,7 @@ namespace Rilisoft
 		public IDictionary<int, QuestBase> GetActiveQuests()
 		{
 			IEnumerable<int> source = _previousQuests.Keys.Concat(_currentQuests.Keys).Concat(_tutorialQuests.Select((QuestBase q) => q.Slot)).Distinct();
-			return source.ToDictionary((int s) => s, GetActiveQuestBySlot);
+			return source.ToDictionary<int, int, QuestBase>((int s) => s, GetActiveQuestBySlot);
 		}
 
 		internal bool TryRemoveTutorialQuest(string questId)
@@ -616,7 +616,7 @@ namespace Rilisoft
 				throw new ArgumentNullException("id");
 			}
 			IEnumerable<int> source = _previousQuests.Keys.Concat(_currentQuests.Keys).Concat(_tutorialQuests.Select((QuestBase q) => q.Slot)).Distinct();
-			IEnumerable<QuestBase> source2 = source.Select(GetActiveQuestBySlot);
+			IEnumerable<QuestBase> source2 = source.Select<int, QuestBase>(GetActiveQuestBySlot);
 			return source2.FirstOrDefault((QuestBase q) => q.Id.Equals(id, StringComparison.Ordinal));
 		}
 
@@ -930,7 +930,7 @@ namespace Rilisoft
 			{
 				return null;
 			}
-			List<ShopNGUIController.CategoryNames> list4 = (from w in list3.OfType<string>().Select(QuestConstants.ParseWeaponSlot)
+			List<ShopNGUIController.CategoryNames> list4 = (from w in list3.OfType<string>().Select<string, ShopNGUIController.CategoryNames?>(QuestConstants.ParseWeaponSlot)
 				where w.HasValue
 				select w.Value).Intersect(list).ToList();
 			if (list4.Count == 0)
@@ -972,7 +972,7 @@ namespace Rilisoft
 			{
 				return null;
 			}
-			ConnectSceneNGUIController.RegimGame[] array2 = (from m in list.OfType<string>().Select(QuestConstants.ParseMode)
+			ConnectSceneNGUIController.RegimGame[] array2 = (from m in list.OfType<string>().Select<string, ConnectSceneNGUIController.RegimGame?>(QuestConstants.ParseMode)
 				where m.HasValue
 				select m.Value).Intersect(array).ToArray();
 			if (array2.Length == 0)
@@ -1094,7 +1094,7 @@ namespace Rilisoft
 				});
 			}
 			string[] source = new string[3] { "killViaHeadshot", "killWithGrenade", "revenge" };
-			Dictionary<string, SimpleAccumulativeQuest> dictionary = source.Select(GetQuestById).OfType<SimpleAccumulativeQuest>().ToDictionary((SimpleAccumulativeQuest q) => q.Id, (SimpleAccumulativeQuest q) => q);
+			Dictionary<string, SimpleAccumulativeQuest> dictionary = source.Select<string, QuestBase>(GetQuestById).OfType<SimpleAccumulativeQuest>().ToDictionary<SimpleAccumulativeQuest, string, SimpleAccumulativeQuest>((SimpleAccumulativeQuest q) => q.Id, (SimpleAccumulativeQuest q) => q);
 			SimpleAccumulativeQuest value;
 			if (dictionary.TryGetValue("killViaHeadshot", out value))
 			{
@@ -1133,7 +1133,7 @@ namespace Rilisoft
 				Debug.Log("HandleCapture(): " + e);
 			}
 			string[] source = new string[2] { "captureFlags", "capturePoints" };
-			Dictionary<string, SimpleAccumulativeQuest> dictionary = source.Select(GetQuestById).OfType<SimpleAccumulativeQuest>().ToDictionary((SimpleAccumulativeQuest q) => q.Id, (SimpleAccumulativeQuest q) => q);
+			Dictionary<string, SimpleAccumulativeQuest> dictionary = source.Select<string, QuestBase>(GetQuestById).OfType<SimpleAccumulativeQuest>().ToDictionary<SimpleAccumulativeQuest, string, SimpleAccumulativeQuest>((SimpleAccumulativeQuest q) => q.Id, (SimpleAccumulativeQuest q) => q);
 			SimpleAccumulativeQuest value;
 			if (dictionary.TryGetValue("capturePoints", out value))
 			{

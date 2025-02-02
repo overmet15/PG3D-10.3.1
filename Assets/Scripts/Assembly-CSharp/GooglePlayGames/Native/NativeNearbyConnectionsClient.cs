@@ -142,13 +142,13 @@ namespace GooglePlayGames.Native
 			}
 			resultCallback = Callbacks.AsOnGameThreadCallback(resultCallback);
 			requestCallback = Callbacks.AsOnGameThreadCallback(requestCallback);
-			mManager.StartAdvertising(name, appIdentifiers.Select(NativeAppIdentifier.FromString).ToList(), ToTimeoutMillis(advertisingDuration), delegate(long localClientId, NativeStartAdvertisingResult result)
+			/*mManager.StartAdvertising(name, appIdentifiers.Select(NativeAppIdentifier.FromString).ToList(), ToTimeoutMillis(advertisingDuration), delegate(long localClientId, NativeStartAdvertisingResult result)
 			{
 				resultCallback(result.AsResult());
 			}, delegate(long localClientId, NativeConnectionRequest request)
 			{
 				requestCallback(request.AsRequest());
-			});
+			});*/
 		}
 
 		private static long ToTimeoutMillis(TimeSpan? span)

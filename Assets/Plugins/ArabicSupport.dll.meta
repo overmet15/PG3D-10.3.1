@@ -3,20 +3,30 @@ guid: 3a83292c19b0c87d22317b2a12e1f4c7
 timeCreated: 1738530386
 licenseType: Free
 PluginImporter:
-  name:
+  externalObjects: {}
+  serializedVersion: 2
   iconMap: {}
   executionOrder: {}
   isPreloaded: 0
+  isOverridable: 0
   platformData:
-    Any:
+  - first:
+      Any: 
+    second:
       enabled: 1
       settings: {}
-    Editor:
+  - first:
+      Editor: Editor
+    second:
       enabled: 0
       settings:
         DefaultValueInitialized: true
-  output:
-    pluginType: 0
-  userData:
-  assetBundleName:
-  assetBundleVariant:
+  - first:
+      Windows Store Apps: WindowsStoreApps
+    second:
+      enabled: 0
+      settings:
+        CPU: AnyCPU
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

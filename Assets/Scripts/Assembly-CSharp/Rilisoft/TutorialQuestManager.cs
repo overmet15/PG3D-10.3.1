@@ -204,10 +204,10 @@ namespace Rilisoft
 				}
 				Reward reward = Reward.Create(dictionary.TryGet("reward") as List<object>);
 				int requiredCount = Convert.ToInt32(dictionary.TryGet("parameter") ?? ((object)1));
-				int initialCount = questJson.TryGet("currentCount").Map(Convert.ToInt32);
+				int initialCount = questJson.TryGet("currentCount").Map<object, int>(Convert.ToInt32);
 				day = questJson.TryGet("day").Map(Convert.ToInt64, day);
-				bool rewarded = questJson.TryGet("rewarded").Map(Convert.ToBoolean);
-				bool active = questJson.TryGet("active").Map(Convert.ToBoolean);
+				bool rewarded = questJson.TryGet("rewarded").Map<object, bool>(Convert.ToBoolean);
+				bool active = questJson.TryGet("active").Map<object, bool>(Convert.ToBoolean);
 				return new SimpleAccumulativeQuest(text, day, slot, difficulty, reward, active, rewarded, requiredCount, initialCount);
 			}
 			catch (Exception ex)

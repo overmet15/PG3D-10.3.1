@@ -36,7 +36,7 @@ public class EtceteraAndroid
 
 	public static Texture2D textureFromFileAtPath(string filePath)
 	{
-		byte[] data = File.ReadAllBytes(filePath);
+		byte[] data = System.IO.File.ReadAllBytes(filePath);
 		Texture2D texture2D = new Texture2D(1, 1);
 		texture2D.LoadImage(data);
 		texture2D.Apply();

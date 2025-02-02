@@ -651,7 +651,7 @@ public sealed class Rocket : MonoBehaviour
 			}
 			else
 			{
-				player.MinusLive(_weaponManager.myPlayer.GetComponent<PhotonView>().viewID, num10, typeKills, typeDead, (rocketNum != 10) ? weaponPrefabName : string.Empty);
+				player.MinusLive(new NetworkViewID(), num10, typeKills, typeDead, (rocketNum != 10) ? weaponPrefabName : string.Empty);
 			}
 		}
 	}

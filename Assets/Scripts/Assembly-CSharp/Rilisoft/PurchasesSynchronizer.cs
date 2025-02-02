@@ -443,8 +443,8 @@ namespace Rilisoft
 				{
 					string @string = Encoding.UTF8.GetString(originalData);
 					string string2 = Encoding.UTF8.GetString(unmergedData);
-					HashSet<string> hashSet = new HashSet<string>(((Json.Deserialize(@string) as List<object>) ?? new List<object>()).Select(Convert.ToString));
-					HashSet<string> hashSet2 = new HashSet<string>(((Json.Deserialize(string2) as List<object>) ?? new List<object>()).Select(Convert.ToString));
+					HashSet<string> hashSet = new HashSet<string>(((Json.Deserialize(@string) as List<object>) ?? new List<object>()).Select<object, string>(Convert.ToString));
+                    HashSet<string> hashSet2 = new HashSet<string>(((Json.Deserialize(string2) as List<object>) ?? new List<object>()).Select<object, string>(Convert.ToString));
 					if (hashSet.IsSupersetOf(hashSet2))
 					{
 						resolver.ChooseMetadata(original);
@@ -592,27 +592,43 @@ namespace Rilisoft
 			return true;
 		}
 
-		internal IEnumerator SimulateSynchronization(Action<bool> callback)
-		{
-			UnityEngine.Debug.Log("Waiting for syncing...");
-			yield return new WaitForSeconds(3f);
-			List<string> traceContext = new List<string> { string.Format("SimulateSynchronization >: {0:F3}", Time.realtimeSinceStartup) };
+        internal IEnumerator SimulateSynchronization(Action<bool> callback)
+        {
+            UnityEngine.Debug.Log("Waiting for syncing...");
+            yield return new WaitForSeconds(3f);
+
+            List<string> traceContext = new List<string>
+			{
+				string.Format("SimulateSynchronization >: {0:F3}", Time.realtimeSinceStartup)
+			};
+
 			try
 			{
-				List<string> simulatedInventory = new List<string> { "currentLevel1", "currentLevel2", "currentLevel3", "currentLevel4", "currentLevel5", "BerettaSN", "gravity_2", "IsFacebookLoginRewardaGained" };
+				// Simulate the inventory and prepare data
+				List<string> simulatedInventory = new List<string>
+				{
+					"currentLevel1", "currentLevel2", "currentLevel3", "currentLevel4",
+					"currentLevel5", "BerettaSN", "gravity_2", "IsFacebookLoginRewardaGained"
+				};
+
 				string inputString = Json.Serialize(simulatedInventory);
 				byte[] data = Encoding.UTF8.GetBytes(inputString);
+
+				// Handle the binary data and invoke the callback
 				HandleReadBinaryData(null, SavedGameRequestStatus.Success, data, callback, traceContext);
 				callback(true);
 			}
 			finally
 			{
-				((_003CSimulateSynchronization_003Ec__Iterator141)this)._003C_003E__Finally0();
+				// Final log entry
+				traceContext.Add(string.Format("SimulateSynchronization <: {0:F3}", Time.realtimeSinceStartup));
 			}
+
 			if (Defs.IsDeveloperBuild)
 			{
 				UnityEngine.Debug.LogFormat("[Rilisoft] SimulateSynchronization ({0}): {1}", "Purchases", Json.Serialize(traceContext));
 			}
 		}
-	}
+
+    }
 }

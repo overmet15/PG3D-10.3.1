@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using Facebook.Unity.Canvas;
-using Facebook.Unity.Editor;
+//using Facebook.Unity.Editor;
 using Facebook.Unity.Mobile;
 using Facebook.Unity.Mobile.Android;
 using Facebook.Unity.Mobile.IOS;
@@ -209,9 +209,9 @@ namespace Facebook.Unity
 				{
 					OnDLLLoadedDelegate = delegate
 					{
-						((EditorFacebook)facebook).Init(onHideUnity, onInitComplete);
+						//((EditorFacebook)facebook).Init(onHideUnity, onInitComplete);
 					};
-					ComponentFactory.GetComponent<EditorFacebookLoader>();
+					//ComponentFactory.GetComponent<EditorFacebookLoader>();
 					return;
 				}
 				switch (Constants.CurrentPlatform)

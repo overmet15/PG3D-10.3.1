@@ -107,7 +107,7 @@ public class NewLobbyLevelAnimator : MonoBehaviour
 			}
 			int shownLobbyLevel = Storager.getInt(Defs.ShownLobbyLevelSN, false);
 			List<object> tutorialStepsLoggedListOfObjects = Json.Deserialize(tutorialStepsLoggedString) as List<object>;
-			List<int> tutorialStepsLoggedList = ((tutorialStepsLoggedListOfObjects == null) ? new List<int>(2) : tutorialStepsLoggedListOfObjects.Select(Convert.ToInt32).ToList());
+			/*List<int> tutorialStepsLoggedList = ((tutorialStepsLoggedListOfObjects == null) ? new List<int>(2) : tutorialStepsLoggedListOfObjects.Select(Convert.ToInt32).ToList());
 			if (!tutorialStepsLoggedList.Contains(shownLobbyLevel))
 			{
 				FlurryPluginWrapper.LogEventToAppsFlyer("af_gui_tutorial_completion", new Dictionary<string, string> { 
@@ -117,7 +117,7 @@ public class NewLobbyLevelAnimator : MonoBehaviour
 				} });
 				tutorialStepsLoggedList.Add(shownLobbyLevel);
 				Storager.setString("AppsFlyer.TutorialStepsLogged", Json.Serialize(tutorialStepsLoggedList), false);
-			}
+			}*/
 		}
 		catch (Exception ex2)
 		{

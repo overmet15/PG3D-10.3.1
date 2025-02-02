@@ -1054,8 +1054,8 @@ internal sealed class FreeAwardController : MonoBehaviour
 			AddEmptyEntryForAdvertTime(currentTime);
 		}
 		finally
-		{
-			((_003CStart_003Ec__Iterator104)(object)this)._003C_003E__Finally0();
+        {
+            RemoveOldEntriesForAdvertTimes();
 		}
 	}
 

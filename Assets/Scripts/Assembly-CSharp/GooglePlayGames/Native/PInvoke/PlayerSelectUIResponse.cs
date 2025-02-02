@@ -31,7 +31,8 @@ namespace GooglePlayGames.Native.PInvoke
 
 		public IEnumerator<string> GetEnumerator()
 		{
-			return PInvokeUtilities.ToEnumerator(TurnBasedMultiplayerManager.TurnBasedMultiplayerManager_PlayerSelectUIResponse_GetPlayerIds_Length(SelfPtr()), PlayerIdAtIndex);
+			//return PInvokeUtilities.ToEnumerator(TurnBasedMultiplayerManager.TurnBasedMultiplayerManager_PlayerSelectUIResponse_GetPlayerIds_Length(SelfPtr()), PlayerIdAtIndex);
+			return null; // It wasn used anyway.
 		}
 
 		internal uint MinimumAutomatchingPlayers()

@@ -794,11 +794,11 @@ public sealed class TurretController : MonoBehaviour
 				float minus = damageMultyByTier[numUpdate];
 				if (Defs.isInet)
 				{
-					playerMoveC.MinusLive(WeaponManager.sharedManager.myPlayer.GetComponent<PhotonView>().viewID, minus, Player_move_c.TypeKills.turret, 0, string.Empty, photonView.viewID);
+					playerMoveC.MinusLive(new NetworkViewID(), minus, Player_move_c.TypeKills.turret, 0, string.Empty, photonView.viewID);
 				}
 				else
 				{
-					playerMoveC.MinusLive(WeaponManager.sharedManager.myPlayer.GetComponent<NetworkView>().viewID, minus, Player_move_c.TypeKills.turret, 0, string.Empty, GetComponent<NetworkView>().viewID);
+					playerMoveC.MinusLive(WeaponManager.sharedManager.myPlayer.GetComponent<NetworkView>().viewID, minus, Player_move_c.TypeKills.turret, 0, string.Empty);
 				}
 				flag = true;
 			}
@@ -967,12 +967,12 @@ public sealed class TurretController : MonoBehaviour
 		turretRenderer.material.SetColor("_ColorRili", new Color(1f, 1f, 1f, 1f));
 	}
 
-	public void MinusLive(float dm, int idKillerPhoton = 0, [Optional] NetworkViewID idKillerLocal)
+	public void MinusLive(float dm, int idKillerPhoton = 0, NetworkViewID idKillerLocal = new NetworkViewID())
 	{
 		MinusLive(dm, false, idKillerPhoton, idKillerLocal);
 	}
 
-	public void MinusLive(float dm, bool isExplosion, int idKillerPhoton = 0, [Optional] NetworkViewID idKillerLocal)
+	public void MinusLive(float dm, bool isExplosion, int idKillerPhoton = 0, NetworkViewID idKillerLocal = new NetworkViewID())
 	{
 		if (Defs.isDaterRegim || !isRun)
 		{
@@ -1022,7 +1022,7 @@ public sealed class TurretController : MonoBehaviour
 		MinusLiveReal(dm, isExplosion, 0, idKillerLocal);
 	}
 
-	public void MinusLiveReal(float dm, bool isExplosion, int idKillerPhoton = 0, [Optional] NetworkViewID idKillerLocal)
+	public void MinusLiveReal(float dm, bool isExplosion, int idKillerPhoton = 0, NetworkViewID idKillerLocal = new NetworkViewID())
 	{
 		StopCoroutine(FlashRed());
 		StartCoroutine(FlashRed());

@@ -696,10 +696,10 @@ public sealed class PromoActionsManager : MonoBehaviour
 			object timezonesObj;
 			if (amazonEvent.TryGetValue("timezones", out timezonesObj))
 			{
-				List<object> timezonesRaw = (timezonesObj as List<object>) ?? new List<object>();
+				//List<object> timezonesRaw = (timezonesObj as List<object>) ?? new List<object>();
 				try
 				{
-					_amazonEventInfo.Timezones = timezonesRaw.ConvertAll(Convert.ToInt32);
+					//_amazonEventInfo.Timezones = timezonesRaw.ConvertAll(Convert.ToInt32);
 				}
 				catch (Exception ex4)
 				{
@@ -1231,8 +1231,8 @@ public sealed class PromoActionsManager : MonoBehaviour
 						try
 						{
 							List<object> providers2 = adProviders as List<object>;
-							List<int> list2 = ((providers2 == null) ? new List<int>() : providers2.Select(Convert.ToInt32).ToList());
-							_mobileAdvert.AdProviders = list2;
+							//List<int> list2 = ((providers2 == null) ? new List<int>() : providers2.Select(Convert.ToInt32).ToList());
+							//_mobileAdvert.AdProviders = list2;
 						}
 						catch (Exception ex12)
 						{
@@ -1249,9 +1249,9 @@ public sealed class PromoActionsManager : MonoBehaviour
 					{
 						try
 						{
-							List<object> providers = interstitialProviders as List<object>;
-							List<int> list = ((providers == null) ? new List<int>() : providers.Select(Convert.ToInt32).ToList());
-							_mobileAdvert.InterstitialProviders = list;
+							//List<object> providers = interstitialProviders as List<object>;
+							//List<int> list = ((providers == null) ? new List<int>() : providers.Select(Convert.ToInt32).ToList());
+							//_mobileAdvert.InterstitialProviders = list;
 						}
 						catch (Exception ex13)
 						{
@@ -1281,9 +1281,9 @@ public sealed class PromoActionsManager : MonoBehaviour
 					{
 						try
 						{
-							List<object> delayObjects2 = rewardedVideoDelayMinutesNonpaying as List<object>;
-							List<double> delays2 = ((delayObjects2 == null) ? new List<double>() : delayObjects2.Select(Convert.ToDouble).ToList());
-							_mobileAdvert.RewardedVideoDelayMinutesNonpaying = delays2;
+							//List<object> delayObjects2 = rewardedVideoDelayMinutesNonpaying as List<object>;
+							//List<double> delays2 = ((delayObjects2 == null) ? new List<double>() : delayObjects2.Select(Convert.ToDouble).ToList());
+							//_mobileAdvert.RewardedVideoDelayMinutesNonpaying = delays2;
 						}
 						catch (Exception ex15)
 						{
@@ -1296,9 +1296,9 @@ public sealed class PromoActionsManager : MonoBehaviour
 					{
 						try
 						{
-							List<object> delayObjects = rewardedVideoDelayMinutesPaying as List<object>;
-							List<double> delays = ((delayObjects == null) ? new List<double>() : delayObjects.Select(Convert.ToDouble).ToList());
-							_mobileAdvert.RewardedVideoDelayMinutesPaying = delays;
+							//List<object> delayObjects = rewardedVideoDelayMinutesPaying as List<object>;
+							//List<double> delays = ((delayObjects == null) ? new List<double>() : delayObjects.Select(Convert.ToDouble).ToList());
+							//_mobileAdvert.RewardedVideoDelayMinutesPaying = delays;
 						}
 						catch (Exception ex16)
 						{

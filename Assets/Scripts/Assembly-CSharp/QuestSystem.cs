@@ -245,7 +245,7 @@ internal sealed class QuestSystem : MonoBehaviour
 		try
 		{
 			int serverVersion = Convert.ToInt32(response["version"]);
-			version2 = string.Format(arg1: QuestConfigClientVersion, format: "{0}.{1}", arg0: serverVersion);
+			version2 = string.Format("{0}.{1}", QuestConfigClientVersion, serverVersion);
 			day2 = Convert.ToInt64(response["day"]);
 			timeLeftSeconds2 = (float)Convert.ToDouble(response["timeLeftSeconds"], CultureInfo.InvariantCulture);
 			long timestampUnix = Convert.ToInt64(response["timestamp"], CultureInfo.InvariantCulture);

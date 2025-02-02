@@ -625,8 +625,8 @@ namespace Rilisoft
 		internal static void StopLoggingGameModeEvent()
 		{
 			string[] source = new string[10] { "Main Menu", "Connect Scene", "Campaign", "Time Survival", "Survival", "Team Battle", "Flag Capture", "Deadly Games", "Deathmatch Worldwide", "Deathmatch Local" };
-			IEnumerable<string> enumerable = source.Select(GetGameModeEventName);
-			foreach (string item in enumerable)
+            IEnumerable<string> enumerable = source.Select<string, string>(GetGameModeEventName);
+            foreach (string item in enumerable)
 			{
 				StopLoggingGameModeEvent(item);
 			}

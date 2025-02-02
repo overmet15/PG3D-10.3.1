@@ -180,7 +180,7 @@ public sealed class CameraTouchControlScheme_UFPS : CameraTouchControlScheme
 			num *= mouseLookSmoothWeight / Delta;
 		}
 		num2 = Mathf.Max(1f, num2);
-		m_CurrentMouseLook = NaNSafeVector2(zero / num2);
+		m_CurrentMouseLook = NaNSafeVector2(zero / num2, Vector2.zero);
 		float num4 = 0f;
 		float num5 = Mathf.Abs(m_CurrentMouseLook.x);
 		float num6 = Mathf.Abs(m_CurrentMouseLook.y);

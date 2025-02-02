@@ -97,7 +97,8 @@ internal sealed class Launcher : MonoBehaviour
 		[DebuggerHidden]
 		IEnumerator IEnumerable.GetEnumerator()
 		{
-			return System_002ECollections_002EGeneric_002EIEnumerable_003Cfloat_003E_002EGetEnumerator();
+			//return System_002ECollections_002EGeneric_002EIEnumerable_003Cfloat_003E_002EGetEnumerator();
+			return null;
 		}
 
 		[DebuggerHidden]
@@ -250,7 +251,7 @@ internal sealed class Launcher : MonoBehaviour
 			throw new NotSupportedException();
 		}
 
-		private void _003C_003E__Finally0()
+		public void _003C_003E__Finally0()
 		{
 			if (_003CactualPackageInfo_003E__0.SignatureHash == null)
 			{
@@ -514,6 +515,7 @@ internal sealed class Launcher : MonoBehaviour
 			finally
 			{
 				((_003CAppsMenuStartCoroutine_003Ec__Iterator11E)(object)this)._003C_003E__Finally0();
+
 			}
 			string actualPackageName = actualPackageInfo.PackageName;
 			if (string.Compare(actualPackageName, Defs.GetIntendedAndroidPackageName(), StringComparison.Ordinal) != 0)

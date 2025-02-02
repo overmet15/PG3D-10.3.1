@@ -32,7 +32,9 @@ namespace UnityStandardAssets.Cameras
 			vector = base.transform.InverseTransformPoint(m_Target.position);
 			float value2 = Mathf.Atan2(vector.y, vector.z) * 57.29578f;
 			value2 = Mathf.Clamp(value2, (0f - m_RotationRange.x) * 0.5f, m_RotationRange.x * 0.5f);
-			m_FollowAngles = Vector3.SmoothDamp(target: new Vector3(m_FollowAngles.x + Mathf.DeltaAngle(m_FollowAngles.x, value2), m_FollowAngles.y + Mathf.DeltaAngle(m_FollowAngles.y, value)), current: m_FollowAngles, currentVelocity: ref m_FollowVelocity, smoothTime: m_FollowSpeed);
+			//m_FollowAngles = Vector3.SmoothDamp(target: new Vector3(m_FollowAngles.x + Mathf.DeltaAngle(m_FollowAngles.x, value2), m_FollowAngles.y + Mathf.DeltaAngle(m_FollowAngles.y, value)), current: m_FollowAngles, currentVelocity: ref m_FollowVelocity, smoothTime: m_FollowSpeed);
+			Vector3 a = new Vector3(m_FollowAngles.x + Mathf.DeltaAngle(m_FollowAngles.x, value2), m_FollowAngles.y + Mathf.DeltaAngle(m_FollowAngles.y, value));
+			m_FollowAngles = Vector3.SmoothDamp(m_FollowAngles, a, ref m_FollowVelocity, m_FollowSpeed);
 			base.transform.localRotation = m_OriginalRotation * Quaternion.Euler(0f - m_FollowAngles.x, m_FollowAngles.y, 0f);
 		}
 	}

@@ -222,7 +222,7 @@ public sealed class RemotePushNotificationController : MonoBehaviour
 			throw new NotSupportedException();
 		}
 
-		private void _003C_003E__Finally0()
+		public void _003C_003E__Finally0()
 		{
 			_003C_003Ef__this._isResponceRuning = false;
 		}

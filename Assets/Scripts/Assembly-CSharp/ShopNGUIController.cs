@@ -2908,9 +2908,9 @@ public class ShopNGUIController : MonoBehaviour
 		rentProperties.SetActive(viewedId != null && TempItemsController.IsCategoryContainsTempItems(currentCategory) && TempItemsController.PriceCoefs.ContainsKey(viewedId));
 		prolongateRentText.SetActive(viewedId != null && TempItemsController.PriceCoefs.ContainsKey(viewedId) && TempItemsController.sharedController != null && TempItemsController.sharedController.ContainsItem(viewedId));
 		bool saleRentActive = false;
-		upgrade.isEnabled = true;
+        upgrade.isEnabled = true;
 		upgradeGear.isEnabled = true;
-		if (WeaponCategory)
+        if (WeaponCategory)
 		{
 			WeaponSounds weaponSounds = null;
 			WeaponSounds weaponSounds2 = null;

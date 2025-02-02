@@ -20,7 +20,8 @@ namespace GooglePlayGames.Native.PInvoke
 
 		internal IEnumerator<string> PlayerIdsToInvite()
 		{
-			return PInvokeUtilities.ToEnumerator(GooglePlayGames.Native.Cwrapper.TurnBasedMatchConfig.TurnBasedMatchConfig_PlayerIdsToInvite_Length(SelfPtr()), PlayerIdAtIndex);
+			//return PInvokeUtilities.ToEnumerator(GooglePlayGames.Native.Cwrapper.TurnBasedMatchConfig.TurnBasedMatchConfig_PlayerIdsToInvite_Length(SelfPtr()), PlayerIdAtIndex);
+			return null; // not used
 		}
 
 		internal uint Variant()
