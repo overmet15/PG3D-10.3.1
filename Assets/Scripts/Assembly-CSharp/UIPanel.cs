@@ -957,8 +957,10 @@ public class UIPanel : UIRect
 	}
 
 	private void LateUpdate()
-	{
-		if (mUpdateFrame == Time.frameCount)
+    {
+        if (!Application.isPlaying) return;
+
+        if (mUpdateFrame == Time.frameCount)
 		{
 			return;
 		}
