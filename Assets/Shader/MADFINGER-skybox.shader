@@ -1,4 +1,4 @@
-Shader "MADFINGER/Environment/Skybox - transparent - no fog" {
+Shader "MADFINGER/Environment/Skybox - opaque - no fog" {
 
 Properties {
 	_MainTex ("Base (RGB)", 2D) = "white" {}
@@ -6,11 +6,10 @@ Properties {
 }
 
 SubShader {
-	Tags {"Queue"="Transparent-20" "IgnoreProjector"="True" "RenderType"="Transparent"}
+	Tags {"Queue"="Geometry+10" "IgnoreProjector"="True" "RenderType"="Opaque"}
 	LOD 100
 	
 	ZWrite Off
-	Blend SrcAlpha OneMinusSrcAlpha 
 	
 	// Non-lightmapped
 	Pass {
