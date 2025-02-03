@@ -218,9 +218,22 @@ internal sealed class FirstPersonControlSharp : MonoBehaviour
 		{
 			string text2 = string.Format("Newbie Jumper achievement progress {0:0.0}%: {1}", newProgress, success);
 		});
-	}
+    }
 
-	private void Update()
+    Vector3 KeyboardInput()
+    {
+        Vector3 result = new Vector3();
+
+        if (Input.GetKey(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow)) result.x = 1;
+        else if (Input.GetKey(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow)) result.x = -1;
+
+        if (Input.GetKey(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)) result.z = 1;
+        else if (Input.GetKey(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow)) result.z = -1;
+
+        return result;
+    }
+
+    private void Update()
 	{
 		if ((isMulti && !isMine) || mySkinName.playerMoveC.isKilled || JoystickController.leftJoystick == null || JoystickController.rightJoystick == null)
 		{
@@ -230,8 +243,12 @@ internal sealed class FirstPersonControlSharp : MonoBehaviour
 		{
 			mySkinName.playerMoveC.isRocketJump = false;
 		}
+#if UNITY_STANDALONE
+		_movement = thisTransform.TransformDirection(KeyboardInput());
+#else
 		_movement = thisTransform.TransformDirection(new Vector3(JoystickController.leftJoystick.value.x, 0f, JoystickController.leftJoystick.value.y));
-		if ((!isHunger || !hungerGameController.isGo) && isHunger)
+#endif
+        if ((!isHunger || !hungerGameController.isGo) && isHunger)
 		{
 			_movement = Vector3.zero;
 		}
@@ -245,7 +262,11 @@ internal sealed class FirstPersonControlSharp : MonoBehaviour
 		}
 		_movement.y = 0f;
 		_movement.Normalize();
+#if UNITY_STANDALONE
+		Vector2 vector = new Vector2(Mathf.Abs(KeyboardInput().x), Mathf.Abs(KeyboardInput().z));
+#else
 		Vector2 vector = new Vector2(Mathf.Abs(JoystickController.leftJoystick.value.x), Mathf.Abs(JoystickController.leftJoystick.value.y));
+#endif
 		if (JoystickController.leftTouchPad.isShooting && JoystickController.leftTouchPad.isActiveFireButton)
 		{
 			vector = new Vector2(0f, 0f);
@@ -274,7 +295,14 @@ internal sealed class FirstPersonControlSharp : MonoBehaviour
 			canJump = true;
 			jump = false;
 			TouchPadController rightJoystick = JoystickController.rightJoystick;
-			if (canJump && (rightJoystick.jumpPressed || JoystickController.leftTouchPad.isJumpPressed))
+#if UNITY_STANDALONE
+            bool isJumpPressed = (TrainingController.TrainingCompleted ||TrainingController.stepTraining >= TrainingState.GetTheGun)
+				&& Input.GetKeyDown(KeyCode.Space);
+#else
+            bool isJumpPressed = rightJoystick.jumpPressed || JoystickController.leftTouchPad.isJumpPressed;
+#endif
+
+            if (canJump && isJumpPressed)
 			{
 				if (!Defs.isJetpackEnabled)
 				{
@@ -387,15 +415,31 @@ internal sealed class FirstPersonControlSharp : MonoBehaviour
 			mySkinName.onConveyor = false;
 		}
 		Vector2 delta = GrabCameraInputDelta();
-		if (Device.isPixelGunLow && Defs.isTouchControlSmoothDump)
-		{
+		//if (Device.isPixelGunLow && Defs.isTouchControlSmoothDump)
+		//{
 			MoveCamera(delta);
-		}
+		//}
 		if (Defs.isMulti && CameraSceneController.sharedController.killCamController.enabled)
 		{
 			CameraSceneController.sharedController.killCamController.UpdateMouseX();
 		}
+
+#if UNITY_STANDALONE
+        if (TrainingController.TrainingCompleted || TrainingController.stepTraining >= TrainingState.GetTheGun) UpdatePC();
+#endif
 	}
+
+	void UpdatePC()
+	{
+        if (Input.GetMouseButton(0)) _moveC.ShotPressed();
+		if (Input.GetKeyDown(KeyCode.R)) _moveC.ReloadPressed();
+
+		if (!TrainingController.TrainingCompleted) return;
+
+        if (Input.GetMouseButtonDown(1)) _moveC.ZoomPress();
+        if (Input.GetKeyDown(KeyCode.Tab)) _moveC.RanksPressed();
+		if (Input.GetKeyUp(KeyCode.Tab)) _moveC.BackRanksPressed();
+    }
 
 	public void MoveCamera(Vector2 delta)
 	{
@@ -416,14 +460,19 @@ internal sealed class FirstPersonControlSharp : MonoBehaviour
 	}
 
 	private Vector2 GrabCameraInputDelta()
-	{
-		Vector2 result = Vector2.zero;
-		TouchPadController rightJoystick = JoystickController.rightJoystick;
+    {
+        Vector2 result = Vector2.zero;
+#if UNITY_STANDALONE
+		result = new Vector2(Input.GetAxisRaw("Mouse X") * 2.5f, Input.GetAxisRaw("Mouse Y") * 2.5f);
+		return result;
+#else
+        TouchPadController rightJoystick = JoystickController.rightJoystick;
 		if (rightJoystick != null)
 		{
 			result = rightJoystick.GrabDeltaPosition();
 		}
 		return result;
+#endif
 	}
 
 	private void RegisterNinjAchievment()

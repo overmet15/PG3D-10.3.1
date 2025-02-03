@@ -922,6 +922,8 @@ public class Everyplay : MonoBehaviour
 
 	public static void InitEveryplay(string clientId, string clientSecret, string redirectURI)
 	{
+		return;
+
 		AndroidJavaClass androidJavaClass = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
 		AndroidJavaObject @static = androidJavaClass.GetStatic<AndroidJavaObject>("currentActivity");
 		everyplayUnity = new AndroidJavaObject("com.everyplay.Everyplay.unity.EveryplayUnity3DWrapper");
@@ -990,7 +992,7 @@ public class Everyplay : MonoBehaviour
 
 	public static bool EveryplayIsRecordingSupported()
 	{
-		return everyplayUnity.Call<bool>("isRecordingSupported", new object[0]);
+		return false;
 	}
 
 	public static bool EveryplayIsPaused()
@@ -1035,7 +1037,7 @@ public class Everyplay : MonoBehaviour
 
 	public static bool EveryplayIsSupported()
 	{
-		return everyplayUnity.Call<bool>("isSupported", new object[0]);
+		return false;
 	}
 
 	public static bool EveryplayIsSingleCoreDevice()
