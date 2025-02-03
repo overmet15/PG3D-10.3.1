@@ -1289,6 +1289,8 @@ internal sealed class Switcher : MonoBehaviour
 
 	private void SetUpPhoton()
 	{
+		return;
+
 		string text = SelectPhotonAppId();
 		if (Defs.IsDeveloperBuild)
 		{
