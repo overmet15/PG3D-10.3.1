@@ -2,11 +2,11 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!43 &4300000
 Mesh:
-  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: boots_black
+  m_Name: boots_black_0
+  serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -23,7 +23,7 @@ Mesh:
     channels: []
     fullWeights: []
   m_BindPose:
-  - e00: -9.4596755E-05
+  - e00: -0.000094596755
     e01: -0.0016219037
     e02: 0.31223795
     e03: -0.4679714
@@ -33,13 +33,13 @@ Mesh:
     e13: -0.12311068
     e20: 0.31220695
     e21: -0.004673551
-    e22: 7.031096E-05
+    e22: 0.00007031096
     e23: 0.0045975
     e30: 0
     e31: 0
     e32: 0
     e33: 1
-  - e00: 9.476902E-05
+  - e00: 0.00009476902
     e01: -0.0016219039
     e02: 0.31223795
     e03: -0.46788758
@@ -49,15 +49,13 @@ Mesh:
     e13: -0.11900476
     e20: 0.31220695
     e21: 0.004672959
-    e22: -7.048628E-05
+    e22: -0.00007048628
     e23: 0.27008212
     e30: 0
     e31: 0
     e32: 0
     e33: 1
-  m_BoneNameHashes:
-  - 3257477180
-  - 1675515275
+  m_BoneNameHashes: 3c2829c28b55de63
   m_RootBoneNameHash: 1675515275
   m_MeshCompression: 0
   m_IsReadable: 0
@@ -2220,57 +2218,57 @@ Mesh:
       m_NumItems: 0
       m_Range: 0
       m_Start: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_UV:
       m_NumItems: 0
       m_Range: 0
       m_Start: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_Normals:
       m_NumItems: 0
       m_Range: 0
       m_Start: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_Tangents:
       m_NumItems: 0
       m_Range: 0
       m_Start: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_Weights:
       m_NumItems: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_NormalSigns:
       m_NumItems: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_TangentSigns:
       m_NumItems: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_FloatColors:
       m_NumItems: 0
       m_Range: 0
       m_Start: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_BoneIndices:
       m_NumItems: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_Triangles:
       m_NumItems: 0
-      m_Data:
+      m_Data: 
       m_BitSize: 0
     m_UVInfo: 0
   m_LocalAABB:
     m_Center: {x: -0.44076514, y: -0.10000095, z: 0.4499989}
     m_Extent: {x: 0.991207, y: 0.5500009, z: 0.45000276}
   m_MeshUsageFlags: 1
-  m_BakedConvexCollisionMesh:
-  m_BakedTriangleCollisionMesh:
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
   m_MeshOptimized: 1

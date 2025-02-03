@@ -6,35 +6,26 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: LoveIsland_watergrid
+  m_Name: LoveIsland_watergrid_0
   m_Shader: {fileID: 4800000, guid: 4149a6f5376643f4bb09078a0e3f3d00, type: 3}
-  m_ShaderKeywords:
+  m_ShaderKeywords: 
   m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
+  disabledShaderPasses: []
   m_SavedProperties:
-    serializedVersion: 2
+    serializedVersion: 3
     m_TexEnvs:
-    - first:
-        name: _MainTex
-      second:
+    - _MainTex:
         m_Texture: {fileID: 2800000, guid: 114f77a522d754144aa08c1a88c2ec84, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - first:
-        name: _ContractionAmount
-      second: 0
-    - first:
-        name: _FadeOutDistFar
-      second: 10
-    - first:
-        name: _FadeOutDistNear
-      second: 0
-    - first:
-        name: _Multiplier
-      second: 0.25
+    - _ContractionAmount: 0
+    - _FadeOutDistFar: 10
+    - _FadeOutDistNear: 0
+    - _Multiplier: 0.25
     m_Colors:
-    - first:
-        name: _Color
-      second: {r: 0.5882353, g: 0.5882353, b: 0.5882353, a: 1}
+    - _Color: {r: 0.5882353, g: 0.5882353, b: 0.5882353, a: 1}

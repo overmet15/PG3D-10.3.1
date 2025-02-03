@@ -6,74 +6,41 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Two_Castles_2_lava
+  m_Name: Two_Castles_2_lava_0
   m_Shader: {fileID: 4800000, guid: df835dea55f6ed148a5af74e4eec1666, type: 3}
-  m_ShaderKeywords:
+  m_ShaderKeywords: 
   m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
+  disabledShaderPasses: []
   m_SavedProperties:
-    serializedVersion: 2
+    serializedVersion: 3
     m_TexEnvs:
-    - first:
-        name: _Illum
-      second:
+    - _Illum:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _MainTex
-      second:
+    - _MainTex:
         m_Texture: {fileID: 2800000, guid: 7c9257f7275d069478ec547627569d76, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - first:
-        name: _Emission
-      second: 1
-    - first:
-        name: _EmissionLM
-      second: 3
-    - first:
-        name: _MMultiplier
-      second: 1
-    - first:
-        name: _Scroll2X
-      second: 0
-    - first:
-        name: _Scroll2Y
-      second: 0
-    - first:
-        name: _ScrollX
-      second: 5
-    - first:
-        name: _ScrollY
-      second: 0.2
-    - first:
-        name: _SineAmplX
-      second: 0
-    - first:
-        name: _SineAmplX2
-      second: 0
-    - first:
-        name: _SineAmplY
-      second: 0
-    - first:
-        name: _SineAmplY2
-      second: 0
-    - first:
-        name: _SineFreqX
-      second: 0
-    - first:
-        name: _SineFreqX2
-      second: 0
-    - first:
-        name: _SineFreqY
-      second: 0
-    - first:
-        name: _SineFreqY2
-      second: 0
+    - _Emission: 1
+    - _EmissionLM: 3
+    - _MMultiplier: 1
+    - _Scroll2X: 0
+    - _Scroll2Y: 0
+    - _ScrollX: 5
+    - _ScrollY: 0.2
+    - _SineAmplX: 0
+    - _SineAmplX2: 0
+    - _SineAmplY: 0
+    - _SineAmplY2: 0
+    - _SineFreqX: 0
+    - _SineFreqX2: 0
+    - _SineFreqY: 0
+    - _SineFreqY2: 0
     m_Colors:
-    - first:
-        name: _Color
-      second: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}

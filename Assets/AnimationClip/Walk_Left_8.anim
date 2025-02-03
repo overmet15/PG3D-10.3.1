@@ -2,11 +2,11 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!74 &7400000
 AnimationClip:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Walk_Left
+  m_Name: Walk_Left_8
+  serializedVersion: 6
   m_Legacy: 1
   m_Compressed: 0
   m_UseHighQualityCurve: 1
@@ -14,27 +14,32 @@ AnimationClip:
   - curve:
       serializedVersion: 2
       m_Curve:
-      - time: 0
+      - serializedVersion: 2
+        time: 0
         value: {x: 0.056531265, y: 0.7048433, z: -0.05653125, w: 0.7048435}
         inSlope: {x: 0.14915194, y: -0.012490152, z: -0.14915182, w: -0.0124919405}
         outSlope: {x: 0.14915194, y: -0.012490152, z: -0.14915182, w: -0.0124919405}
         tangentMode: 0
-      - time: 0.10000001
+      - serializedVersion: 2
+        time: 0.10000001
         value: {x: 0.08744414, y: 0.701679, z: -0.08744412, w: 0.70167917}
         inSlope: {x: 0.38836864, y: -0.047757626, z: -0.38836843, w: -0.04775673}
         outSlope: {x: 0.38836864, y: -0.047757626, z: -0.38836843, w: -0.04775673}
         tangentMode: 0
-      - time: 0.26666668
+      - serializedVersion: 2
+        time: 0.26666668
         value: {x: 0.0854439, y: 0.70192534, z: -0.08544388, w: 0.7019256}
         inSlope: {x: -0.32307154, y: 0.038841072, z: 0.32307154, w: 0.038841072}
         outSlope: {x: -0.32307154, y: 0.038841072, z: 0.32307154, w: 0.038841072}
         tangentMode: 0
-      - time: 0.53333336
+      - serializedVersion: 2
+        time: 0.53333336
         value: {x: 0.02118074, y: 0.70678943, z: -0.021180734, w: 0.7067896}
         inSlope: {x: 0.2085475, y: -0.0070899664, z: -0.20854744, w: -0.0070890724}
         outSlope: {x: 0.2085475, y: -0.0070899664, z: -0.20854744, w: -0.0070890724}
         tangentMode: 0
-      - time: 0.6333334
+      - serializedVersion: 2
+        time: 0.6333334
         value: {x: 0.05243246, y: 0.7051601, z: -0.052432444, w: 0.70516026}
         inSlope: {x: 0.20815417, y: -0.014635917, z: -0.20815411, w: -0.014635023}
         outSlope: {x: 0.20815417, y: -0.014635917, z: -0.20815411, w: -0.014635023}
