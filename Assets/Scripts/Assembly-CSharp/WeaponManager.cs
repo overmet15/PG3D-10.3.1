@@ -2684,7 +2684,15 @@ public sealed class WeaponManager : MonoBehaviour
 			outerWeaponPrefabs = Resources.LoadAll<WeaponSounds>("Weapons").ToList();
 		}
 		yield return null;
-		gunsForPixelGunLow = outerWeaponPrefabs.ToDictionary((WeaponSounds w) => w.name, (WeaponSounds w) => PixelGunLowWeaponsTable.table[w.typeForLow][ExpController.OurTierForAnyPlace()]);
+
+		gunsForPixelGunLow = new Dictionary<string, string>();
+        foreach (WeaponSounds wep in outerWeaponPrefabs)
+		{
+			if (gunsForPixelGunLow.ContainsKey(wep.name)) continue;
+
+			gunsForPixelGunLow.Add(wep.name, PixelGunLowWeaponsTable.table[wep.typeForLow][ExpController.OurTierForAnyPlace()]);
+		}
+		//gunsForPixelGunLow = outerWeaponPrefabs.ToDictionary((WeaponSounds w) => w.name, (WeaponSounds w) => PixelGunLowWeaponsTable.table[w.typeForLow][ExpController.OurTierForAnyPlace()]);
 		if (!Defs.isHunger && !Defs.isDaterRegim)
 		{
 			int yieldCount = 0;

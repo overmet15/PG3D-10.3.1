@@ -83,7 +83,7 @@ public class FacebookController : MonoBehaviour
 	{
 		get
 		{
-			return BuildSettings.BuildTargetPlatform != RuntimePlatform.MetroPlayerX64;
+			return false;
 		}
 	}
 

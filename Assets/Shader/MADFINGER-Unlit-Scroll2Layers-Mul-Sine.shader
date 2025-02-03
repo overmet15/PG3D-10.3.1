@@ -20,7 +20,6 @@ Properties {
 	_SineAmplY2 ("2nd layer sine amplitude Y",Float) = 0.5
 	_SineFreqX2 ("2nd layer sine freq X",Float) = 10 
 	_SineFreqY2 ("2nd layer sine freq Y",Float) = 10
-	_Color("Color", Color) = (1,1,1,1)
 	
 	_MMultiplier ("Layer Multiplier", Float) = 2.0
 }
@@ -61,7 +60,6 @@ SubShader {
 	float _SineAmplY2;
 	float _SineFreqX2;
 	float _SineFreqY2;
-	float4 _Color;
 	
 	struct v2f {
 		float4 pos : SV_POSITION;
@@ -83,7 +81,7 @@ SubShader {
 		o.uv.z += sin(_Time * _SineFreqX2) * _SineAmplX2;
 		o.uv.w += sin(_Time * _SineFreqY2) * _SineAmplY2;
 		
-		o.color = _MMultiplier.xxxx * _Color;
+		o.color = _MMultiplier.xxxx;
 		return o;
 	}
 	ENDCG
