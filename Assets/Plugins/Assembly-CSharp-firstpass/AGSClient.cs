@@ -27,6 +27,7 @@ public class AGSClient : MonoBehaviour
 
 	static AGSClient()
 	{
+		return;
 		PROXY_CLASS_NAME = "com.amazon.ags.api.unity.AmazonGamesClientProxyImpl";
 		JavaObject = new AmazonJavaWrapper();
 		using (AndroidJavaClass androidJavaClass = new AndroidJavaClass(PROXY_CLASS_NAME))
