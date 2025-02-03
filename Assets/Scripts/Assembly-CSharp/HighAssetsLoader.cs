@@ -34,7 +34,7 @@ internal sealed class HighAssetsLoader : MonoBehaviour
 			}
 			list.Sort((Texture2D lightmap1, Texture2D lightmap2) => lightmap1.name.CompareTo(lightmap2.name));
 			LightmapData lightmapData = new LightmapData();
-			lightmapData.lightmapFar = list[0];
+			lightmapData.lightmapColor = list[0];
 			List<LightmapData> list2 = new List<LightmapData>();
 			list2.Add(lightmapData);
 			LightmapSettings.lightmaps = list2.ToArray();

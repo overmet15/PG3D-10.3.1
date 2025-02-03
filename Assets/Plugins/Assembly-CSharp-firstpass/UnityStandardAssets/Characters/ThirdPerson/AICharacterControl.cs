@@ -3,18 +3,18 @@ using UnityEngine;
 namespace UnityStandardAssets.Characters.ThirdPerson
 {
 	[RequireComponent(typeof(ThirdPersonCharacter))]
-	[RequireComponent(typeof(NavMeshAgent))]
+	[RequireComponent(typeof(UnityEngine.AI.NavMeshAgent))]
 	public class AICharacterControl : MonoBehaviour
 	{
 		public Transform target;
 
-		public NavMeshAgent agent { get; private set; }
+		public UnityEngine.AI.NavMeshAgent agent { get; private set; }
 
 		public ThirdPersonCharacter character { get; private set; }
 
 		private void Start()
 		{
-			agent = GetComponentInChildren<NavMeshAgent>();
+			agent = GetComponentInChildren<UnityEngine.AI.NavMeshAgent>();
 			character = GetComponent<ThirdPersonCharacter>();
 			agent.updateRotation = false;
 			agent.updatePosition = true;

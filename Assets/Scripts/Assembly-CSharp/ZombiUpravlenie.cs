@@ -38,7 +38,7 @@ public sealed class ZombiUpravlenie : MonoBehaviour
 
 	private bool falling;
 
-	private NavMeshAgent _nma;
+	private UnityEngine.AI.NavMeshAgent _nma;
 
 	private BoxCollider _modelChildCollider;
 
@@ -175,7 +175,7 @@ public sealed class ZombiUpravlenie : MonoBehaviour
 		try
 		{
 			_skin = SetSkinForObj(_modelChild);
-			_nma = GetComponent<NavMeshAgent>();
+			_nma = GetComponent<UnityEngine.AI.NavMeshAgent>();
 			_modelChildCollider = _modelChild.GetComponent<BoxCollider>();
 			shootAnim = offAnim;
 			player = GameObject.FindGameObjectWithTag("Player");

@@ -2244,9 +2244,9 @@ public sealed class Player_move_c : MonoBehaviour
 					}
 				}
 			}
-			if (base.transform.FindChild("BulletSpawnPoint") != null)
+			if (base.transform.Find("BulletSpawnPoint") != null)
 			{
-				_bulletSpawnPoint = base.transform.FindChild("BulletSpawnPoint").gameObject;
+				_bulletSpawnPoint = base.transform.Find("BulletSpawnPoint").gameObject;
 			}
 			base.transform.localPosition = new Vector3(0f, 0.4f, 0f);
 			gameObject2.transform.localPosition = new Vector3(0f, -1.4f, 0f);

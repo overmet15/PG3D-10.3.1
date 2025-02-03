@@ -356,4 +356,9 @@ public class GameCircleSocial : ISocialPlatform
 			return LeaderboardScope.GlobalAllTime;
 		}
 	}
+
+    public void Authenticate(ILocalUser user, Action<bool, string> callback)
+    {
+
+    }
 }

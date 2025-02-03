@@ -75,12 +75,12 @@ public sealed class LeaderboardsView : MonoBehaviour
 			if (clansButton != null)
 			{
 				clansButton.isEnabled = value != State.Clans;
-				Transform transform = clansButton.gameObject.transform.FindChild("SpriteLabel");
+				Transform transform = clansButton.gameObject.transform.Find("SpriteLabel");
 				if (transform != null)
 				{
 					transform.gameObject.SetActive(value != State.Clans);
 				}
-				Transform transform2 = clansButton.gameObject.transform.FindChild("ChekmarkLabel");
+				Transform transform2 = clansButton.gameObject.transform.Find("ChekmarkLabel");
 				if (transform2 != null)
 				{
 					transform2.gameObject.SetActive(value == State.Clans);
@@ -89,12 +89,12 @@ public sealed class LeaderboardsView : MonoBehaviour
 			if (friendsButton != null)
 			{
 				friendsButton.isEnabled = value != State.Friends;
-				Transform transform3 = friendsButton.gameObject.transform.FindChild("SpriteLabel");
+				Transform transform3 = friendsButton.gameObject.transform.Find("SpriteLabel");
 				if (transform3 != null)
 				{
 					transform3.gameObject.SetActive(value != State.Friends);
 				}
-				Transform transform4 = friendsButton.gameObject.transform.FindChild("ChekmarkLabel");
+				Transform transform4 = friendsButton.gameObject.transform.Find("ChekmarkLabel");
 				if (transform4 != null)
 				{
 					transform4.gameObject.SetActive(value == State.Friends);
@@ -103,12 +103,12 @@ public sealed class LeaderboardsView : MonoBehaviour
 			if (bestPlayersButton != null)
 			{
 				bestPlayersButton.isEnabled = value != State.BestPlayers;
-				Transform transform5 = bestPlayersButton.gameObject.transform.FindChild("SpriteLabel");
+				Transform transform5 = bestPlayersButton.gameObject.transform.Find("SpriteLabel");
 				if (transform5 != null)
 				{
 					transform5.gameObject.SetActive(value != State.BestPlayers);
 				}
-				Transform transform6 = bestPlayersButton.gameObject.transform.FindChild("ChekmarkLabel");
+				Transform transform6 = bestPlayersButton.gameObject.transform.Find("ChekmarkLabel");
 				if (transform6 != null)
 				{
 					transform6.gameObject.SetActive(value == State.BestPlayers);
@@ -181,12 +181,12 @@ public sealed class LeaderboardsView : MonoBehaviour
 
 	private GameObject FindTableFooterClan()
 	{
-		return clansTableHeader.Map((GameObject h) => h.transform.FindChild("TableFooterClans")).Map((Transform t) => t.gameObject);
+		return clansTableHeader.Map((GameObject h) => h.transform.Find("TableFooterClans")).Map((Transform t) => t.gameObject);
 	}
 
 	private GameObject FindTableFooterPlayer()
 	{
-		return defaultTableHeader.Map((GameObject h) => h.transform.FindChild("TableFooterPlayer")).Map((Transform t) => t.gameObject);
+		return defaultTableHeader.Map((GameObject h) => h.transform.Find("TableFooterPlayer")).Map((Transform t) => t.gameObject);
 	}
 
 	private void RefreshGrid(UIGrid grid)

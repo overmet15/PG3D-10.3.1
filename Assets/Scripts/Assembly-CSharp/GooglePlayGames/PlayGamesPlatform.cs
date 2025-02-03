@@ -689,5 +689,10 @@ namespace GooglePlayGames
 		{
 			return mClient.GetToken();
 		}
-	}
+
+        public void Authenticate(ILocalUser user, Action<bool, string> callback)
+        {
+
+        }
+    }
 }

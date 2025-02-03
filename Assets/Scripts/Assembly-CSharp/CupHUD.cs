@@ -74,14 +74,14 @@ public class CupHUD : MonoBehaviour
 	[ContextMenu("Find Select obj")]
 	private void FindSelectObj()
 	{
-		objSelectCup = base.transform.FindChild("Select").gameObject;
+		objSelectCup = base.transform.Find("Select").gameObject;
 	}
 
 	[ContextMenu("Find need Tx")]
 	private void FindNeedTX()
 	{
-		txCup = base.transform.FindChild("Cup_usual_Filled").GetComponent<UITexture>();
-		txFillLine = base.transform.FindChild("Cup_line").GetComponent<UITexture>();
+		txCup = base.transform.Find("Cup_usual_Filled").GetComponent<UITexture>();
+		txFillLine = base.transform.Find("Cup_line").GetComponent<UITexture>();
 	}
 
 	[ContextMenu("TestAnimate")]

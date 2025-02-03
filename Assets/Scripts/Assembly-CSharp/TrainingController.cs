@@ -492,7 +492,7 @@ public sealed class TrainingController : MonoBehaviour
 				{
 					enemyPrototype.GetComponent<BotAiController>(),
 					enemyPrototype.GetComponent<MeleeBot>(),
-					enemyPrototype.GetComponent<NavMeshAgent>()
+					enemyPrototype.GetComponent<UnityEngine.AI.NavMeshAgent>()
 				};
 				Behaviour[] array3 = array2;
 				foreach (Behaviour behaviour in array3)

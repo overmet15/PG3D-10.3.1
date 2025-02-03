@@ -47,7 +47,7 @@ public sealed class BotMovement : MonoBehaviour
 
 	private bool falling;
 
-	private NavMeshAgent _nma;
+	private UnityEngine.AI.NavMeshAgent _nma;
 
 	private BoxCollider _modelChildCollider;
 
@@ -99,7 +99,7 @@ public sealed class BotMovement : MonoBehaviour
 	private void Start()
 	{
 		myTransform = base.transform;
-		_nma = GetComponent<NavMeshAgent>();
+		_nma = GetComponent<UnityEngine.AI.NavMeshAgent>();
 		_modelChildCollider = _modelChild.GetComponent<BoxCollider>();
 		shootAnim = offAnim;
 		healthDown = GameObject.FindGameObjectWithTag("PlayerGun").GetComponent<Player_move_c>();

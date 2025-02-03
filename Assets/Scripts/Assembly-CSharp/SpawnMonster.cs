@@ -32,7 +32,7 @@ public class SpawnMonster : MonoBehaviour
 
 	private Sounds _soundClips;
 
-	private NavMeshAgent _nma;
+	private UnityEngine.AI.NavMeshAgent _nma;
 
 	public bool ShouldMove
 	{
@@ -64,7 +64,7 @@ public class SpawnMonster : MonoBehaviour
 
 	private void Start()
 	{
-		_nma = GetComponent<NavMeshAgent>();
+		_nma = GetComponent<UnityEngine.AI.NavMeshAgent>();
 		IEnumerator enumerator = base.transform.GetEnumerator();
 		try
 		{

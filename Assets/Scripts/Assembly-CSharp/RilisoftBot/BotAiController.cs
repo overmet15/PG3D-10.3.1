@@ -62,7 +62,7 @@ namespace RilisoftBot
 
 		private Vector3 _targetPoint;
 
-		private NavMeshAgent _naveMeshAgent;
+		private UnityEngine.AI.NavMeshAgent _naveMeshAgent;
 
 		[Header("Movement module settings")]
 		public bool isStationary;
@@ -159,7 +159,7 @@ namespace RilisoftBot
 			_currentState = AiState.None;
 			_botController = GetComponent<BaseBot>();
 			_typeBot = GetCurrentTypeBot();
-			_naveMeshAgent = GetComponent<NavMeshAgent>();
+			_naveMeshAgent = GetComponent<UnityEngine.AI.NavMeshAgent>();
 			_modelCollider = GetComponentInChildren<BoxCollider>();
 			InitializePatrolModule();
 			if (_typeBot == TypeBot.Melee)

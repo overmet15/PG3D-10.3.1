@@ -31,12 +31,14 @@ namespace UnityStandardAssets.Effects
 				{
 					lastSoundTime = Time.time;
 				}
-				Collider collider = m_CollisionEvents[i].collider;
-				if (collider.attachedRigidbody != null)
-				{
-					Vector3 velocity = m_CollisionEvents[i].velocity;
-					collider.attachedRigidbody.AddForce(velocity * force, ForceMode.Impulse);
-				}
+                object collider = m_CollisionEvents[i].colliderComponent;
+                Collider c = collider as Collider; // Use 'as' instead of 'is'
+
+                if (c != null && c.attachedRigidbody != null)
+                {
+                    Vector3 velocity = m_CollisionEvents[i].velocity;
+                    c.attachedRigidbody.AddForce(velocity * force, ForceMode.Impulse);
+                }
 				other.BroadcastMessage("Extinguish", SendMessageOptions.DontRequireReceiver);
 			}
 		}
