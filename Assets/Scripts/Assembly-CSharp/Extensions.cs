@@ -1,9 +1,15 @@
+using System;
 using System.Collections;
 using ExitGames.Client.Photon;
 using UnityEngine;
 
 public static class Extensions
 {
+	public static int get_length(Array array)
+	{
+		return array.Length;
+	}
+
 	public static PhotonView[] GetPhotonViewsInChildren(this GameObject go)
 	{
 		return go.GetComponentsInChildren<PhotonView>(true);

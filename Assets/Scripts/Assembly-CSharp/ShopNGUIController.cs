@@ -2908,7 +2908,7 @@ public class ShopNGUIController : MonoBehaviour
 		rentProperties.SetActive(viewedId != null && TempItemsController.IsCategoryContainsTempItems(currentCategory) && TempItemsController.PriceCoefs.ContainsKey(viewedId));
 		prolongateRentText.SetActive(viewedId != null && TempItemsController.PriceCoefs.ContainsKey(viewedId) && TempItemsController.sharedController != null && TempItemsController.sharedController.ContainsItem(viewedId));
 		bool saleRentActive = false;
-        upgrade.isEnabled = true;
+        this.upgrade.isEnabled = true;
 		upgradeGear.isEnabled = true;
         if (WeaponCategory)
 		{
@@ -2986,7 +2986,7 @@ public class ShopNGUIController : MonoBehaviour
 				string text4 = string.Format("{0} {1} {2}", LocalizationStore.Key_0226, num2, LocalizationStore.Get("Key_1022"));
 				needTierLabel.text = text4;
 			}
-			upgrade.isEnabled = !upgradeActive || !(weaponSounds2 != null) || !(ExpController.Instance != null) || ExpController.Instance.OurTier >= weaponSounds2.tier;
+            this.upgrade.isEnabled = !upgradeActive || !(weaponSounds2 != null) || !(ExpController.Instance != null) || ExpController.Instance.OurTier >= weaponSounds2.tier;
 			string text5 = null;
 			if (viewedId != null)
 			{

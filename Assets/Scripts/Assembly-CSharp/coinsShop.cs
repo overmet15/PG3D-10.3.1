@@ -350,7 +350,7 @@ internal sealed class coinsShop : MonoBehaviour
 			return false;
 		}
 		string[] source = new string[3] { "Y29tLmRpbW9udmlkZW8ubHVja3lwYXRjaGVy", "Y29tLmNoZWxwdXMubGFja3lwYXRjaA==", "Y29tLmZvcnBkYS5scA==" };
-		IEnumerable<string> source2 = from bytes in source.Select(Convert.FromBase64String)
+		IEnumerable<string> source2 = from bytes in source.Select<string, byte[]>(Convert.FromBase64String)
 			where bytes != null
 			select Encoding.UTF8.GetString(bytes, 0, bytes.Length);
 		return source2.Any(PackageExists);

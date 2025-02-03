@@ -188,7 +188,7 @@ public class TouchPadInJoystick : MonoBehaviour
 			list = new List<object>();
 			Debug.LogWarning(list.GetType().FullName);
 		}
-		int[] array = list.Select(Convert.ToInt32).ToArray();
+		int[] array = list.Select<object, int>(Convert.ToInt32).ToArray();
 		Bounds bounds = NGUIMath.CalculateRelativeWidgetBounds(relativeTo, fireSprite, true);
 		float num3 = 60f;
 		if (array.Length > 6)

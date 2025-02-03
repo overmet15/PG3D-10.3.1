@@ -729,7 +729,7 @@ public sealed class StoreKitEventListener : MonoBehaviour
 			string arg2 = string.Join(", ", value);
 			string message = string.Format("Google billing. Query inventory succeeded, purchases: [{0}], skus: [{1}]", arg2, arg);
 			Debug.Log(message);
-			IEnumerable<GoogleMarketProduct> enumerable = skus.Where((GoogleSkuInfo s) => productIds.Contains(s.productId)).Select(MarketProductFactory.CreateGoogleMarketProduct);
+			IEnumerable<GoogleMarketProduct> enumerable = skus.Where((GoogleSkuInfo s) => productIds.Contains<string>(s.productId)).Select<GoogleSkuInfo, GoogleMarketProduct>(MarketProductFactory.CreateGoogleMarketProduct);
 			foreach (GoogleMarketProduct item in enumerable)
 			{
 				if (item.Price.Contains("$0.0"))
@@ -817,7 +817,7 @@ public sealed class StoreKitEventListener : MonoBehaviour
 			string message2 = string.Format("Item data request finished;    Unavailable skus: {0}, Available skus: {1}", arg2, arg);
 			Debug.Log(message2);
 			IEnumerable<ProductData> enumerable = response.ProductDataMap.Values.Where((ProductData item) => coinIds.Contains(item.Sku) || gemsIds.Contains(item.Sku));
-			IEnumerable<AmazonMarketProduct> enumerable2 = response.ProductDataMap.Values.Select(MarketProductFactory.CreateAmazonMarketProduct);
+			IEnumerable<AmazonMarketProduct> enumerable2 = response.ProductDataMap.Values.Select<ProductData, AmazonMarketProduct>(MarketProductFactory.CreateAmazonMarketProduct);
 			foreach (AmazonMarketProduct item in enumerable2)
 			{
 				if (!_products.Contains(item))

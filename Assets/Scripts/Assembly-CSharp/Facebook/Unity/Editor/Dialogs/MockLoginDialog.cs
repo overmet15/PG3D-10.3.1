@@ -21,7 +21,7 @@ namespace Facebook.Unity.Editor.Dialogs
 		{
 			GUILayout.BeginHorizontal();
 			GUILayout.Label("User Access Token:");
-			accessToken = GUILayout.TextField(accessToken, GUI.skin.textArea, GUILayout.MinWidth(400f));
+            this.accessToken = GUILayout.TextField(this.accessToken, GUI.skin.textArea, GUILayout.MinWidth(400f));
 			GUILayout.EndHorizontal();
 			GUILayout.Space(10f);
 			if (GUILayout.Button("Find Access Token"))
@@ -33,12 +33,13 @@ namespace Facebook.Unity.Editor.Dialogs
 
 		protected override void SendSuccessResult()
 		{
-			if (string.IsNullOrEmpty(accessToken))
+			if (string.IsNullOrEmpty(this.accessToken))
 			{
 				SendErrorResult("Empty Access token string");
 				return;
 			}
-			FB.API("/me?fields=id&access_token=" + accessToken, HttpMethod.GET, delegate(IGraphResult graphResult)
+			/*
+			FB.API("/me?fields=id&access_token=" + this.accessToken, HttpMethod.GET, delegate(IGraphResult graphResult)
 			{
 				if (!string.IsNullOrEmpty(graphResult.Error))
 				{
@@ -84,7 +85,7 @@ namespace Facebook.Unity.Editor.Dialogs
 						}
 					});
 				}
-			});
+			});*/
 		}
 	}
 }

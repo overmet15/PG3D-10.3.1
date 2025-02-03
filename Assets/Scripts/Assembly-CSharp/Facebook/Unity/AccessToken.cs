@@ -19,7 +19,7 @@ namespace Facebook.Unity
 
 		public DateTime? LastRefresh { get; private set; }
 
-		internal AccessToken(string tokenString, string userId, DateTime expirationTime, IEnumerable<string> permissions, DateTime? lastRefresh)
+		public AccessToken(string tokenString, string userId, DateTime expirationTime, IEnumerable<string> permissions, DateTime? lastRefresh)
 		{
 			if (string.IsNullOrEmpty(tokenString))
 			{
@@ -44,7 +44,7 @@ namespace Facebook.Unity
 			LastRefresh = lastRefresh;
 		}
 
-		internal string ToJson()
+		public string ToJson()
 		{
 			Dictionary<string, string> dictionary = new Dictionary<string, string>();
 			dictionary[LoginResult.PermissionsKey] = string.Join(",", Permissions.ToArray());
