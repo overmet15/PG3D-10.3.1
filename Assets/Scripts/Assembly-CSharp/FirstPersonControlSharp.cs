@@ -296,8 +296,10 @@ internal sealed class FirstPersonControlSharp : MonoBehaviour
 			jump = false;
 			TouchPadController rightJoystick = JoystickController.rightJoystick;
 #if UNITY_STANDALONE
-            bool isJumpPressed = (TrainingController.TrainingCompleted ||TrainingController.stepTraining >= TrainingState.GetTheGun)
-				&& Input.GetKeyDown(KeyCode.Space);
+            //bool isJumpPressed = (TrainingController.TrainingCompleted || TrainingController.stepTraining >= TrainingState.GetTheGun)
+			//	&& Input.GetKeyDown(KeyCode.Space);
+
+            bool isJumpPressed = Input.GetKeyDown(KeyCode.Space);
 #else
             bool isJumpPressed = rightJoystick.jumpPressed || JoystickController.leftTouchPad.isJumpPressed;
 #endif
@@ -425,7 +427,9 @@ internal sealed class FirstPersonControlSharp : MonoBehaviour
 		}
 
 #if UNITY_STANDALONE
-        if (TrainingController.TrainingCompleted || TrainingController.stepTraining >= TrainingState.GetTheGun) UpdatePC();
+        //if (TrainingController.TrainingCompleted || TrainingController.stepTraining >= TrainingState.GetTheGun) UpdatePC(); 
+		//Shit fucks up
+        UpdatePC();
 #endif
 	}
 

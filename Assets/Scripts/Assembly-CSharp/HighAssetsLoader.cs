@@ -17,10 +17,12 @@ internal sealed class HighAssetsLoader : MonoBehaviour
 
 	private void OnLevelWasLoaded(int lev)
 	{
-		if (Device.isWeakDevice || (BuildSettings.BuildTargetPlatform == RuntimePlatform.MetroPlayerX64 && !Application.isEditor))
+		/*if (Device.isWeakDevice || (BuildSettings.BuildTargetPlatform == RuntimePlatform.MetroPlayerX64 && !Application.isEditor))
 		{
 			return;
-		}
+		}*/
+		return;
+
 		string path = ResPath.Combine(ResPath.Combine(LightmapsFolder, HighFolder), Application.loadedLevelName);
 		string path2 = ResPath.Combine(ResPath.Combine(AtlasFolder, HighFolder), Application.loadedLevelName);
 		Texture2D[] array = Resources.LoadAll<Texture2D>(path);
