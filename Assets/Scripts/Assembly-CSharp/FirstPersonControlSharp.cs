@@ -467,7 +467,9 @@ internal sealed class FirstPersonControlSharp : MonoBehaviour
     {
         Vector2 result = Vector2.zero;
 #if UNITY_STANDALONE
-		result = new Vector2(Input.GetAxisRaw("Mouse X") * 2.5f, Input.GetAxisRaw("Mouse Y") * 2.5f);
+		result = new Vector2(Input.GetAxisRaw("Mouse X"), Input.GetAxisRaw("Mouse Y"));
+		result *= 5;
+
 		return result;
 #else
         TouchPadController rightJoystick = JoystickController.rightJoystick;

@@ -1,30 +1,32 @@
+// Unity built-in shader source. Copyright (c) 2016 Unity Technologies. MIT license (see license.txt)
+
 Shader "Legacy Shaders/Transparent/Diffuse" {
-    Properties {
-        _Color ("Main Color", Color) = (1, 1, 1, 1)
-        _MainTex ("Base (RGB) Trans (A)", 2D) = "white" {}
-    }
-    
-    SubShader {
-        Tags { "RenderType"="Transparent" }
-        LOD 200
+Properties {
+    _Color ("Main Color", Color) = (1,1,1,1)
+    _MainTex ("Base (RGB) Trans (A)", 2D) = "white" {}
+}
 
-        CGPROGRAM
-        #pragma surface surf Standard fullforwardshadows
-        #pragma target 3.0
+SubShader {
+    Tags {"Queue"="Transparent" "IgnoreProjector"="True" "RenderType"="Transparent"}
+    LOD 200
 
-        sampler2D _MainTex;
+CGPROGRAM
+#pragma surface surf Lambert alpha:fade
 
-        struct Input {
-            float2 uv_MainTex;
-        };
+sampler2D _MainTex;
+fixed4 _Color;
 
-        void surf (Input IN, inout SurfaceOutputStandard o) {
-            fixed4 c = tex2D(_MainTex, IN.uv_MainTex);
-            o.Albedo = c.rgb;
-            o.Alpha = c.a;
-        }
-        ENDCG
-    }
+struct Input {
+    float2 uv_MainTex;
+};
 
-    Fallback "Transparent/VertexLit"
+void surf (Input IN, inout SurfaceOutput o) {
+    fixed4 c = tex2D(_MainTex, IN.uv_MainTex) * _Color;
+    o.Albedo = c.rgb;
+    o.Alpha = c.a;
+}
+ENDCG
+}
+
+Fallback "Legacy Shaders/Transparent/VertexLit"
 }
