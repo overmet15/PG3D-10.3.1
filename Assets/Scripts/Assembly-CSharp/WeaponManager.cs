@@ -2681,8 +2681,17 @@ public sealed class WeaponManager : MonoBehaviour
 		yield return null;
 		if (outerWeaponPrefabs == null)
 		{
-			outerWeaponPrefabs = Resources.LoadAll<WeaponSounds>("Weapons").ToList();
-		}
+			WeaponSounds[] array = Resources.LoadAll<WeaponSounds>("Weapons"); // TEMPORARY, REMOVE AFTER UPDATING UNITY
+			outerWeaponPrefabs = new List<WeaponSounds>();
+
+			foreach (WeaponSounds sounds in array)
+			{
+				if (outerWeaponPrefabs.Contains(sounds)) continue;
+				outerWeaponPrefabs.Add(sounds);
+			}
+
+			//outerWeaponPrefabs = Resources.LoadAll<WeaponSounds>("Weapons").ToList();
+        }
 		yield return null;
 
 		gunsForPixelGunLow = new Dictionary<string, string>();
