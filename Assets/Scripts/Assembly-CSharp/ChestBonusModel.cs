@@ -7,7 +7,7 @@ public class ChestBonusModel : MonoBehaviour
 
 	public static string GetUrlForDownloadBonusesData()
 	{
-		string arg = "https://secure.pixelgunserver.com/pixelgun3d-config/chestBonus/";
+		string arg = "https://pixelserver.com/pixelgun3d-config/chestBonus/";
 		string empty = string.Empty;
 		empty = (Defs.IsDeveloperBuild ? "chest_bonus_test.json" : ((BuildSettings.BuildTargetPlatform == RuntimePlatform.Android) ? ((Defs.AndroidEdition != Defs.RuntimeAndroidEdition.Amazon) ? "chest_bonus_android.json" : "chest_bonus_amazon.json") : ((BuildSettings.BuildTargetPlatform != RuntimePlatform.MetroPlayerX64) ? "chest_bonus_ios.json" : "chest_bonus_wp8.json")));
 		return string.Format("{0}{1}", arg, empty);

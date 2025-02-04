@@ -11,7 +11,7 @@ public class URLs
 
 	private static readonly Lazy<string> _trafficForwardingConfigUrl = new Lazy<string>(InitializeTrafficForwardingConfigUrl);
 
-	public static string Friends = "http://pixelserver.com/action";
+	public static string Friends = "http://pixelserver.com/action.php";
 
 	public static string PromoActions
 	{
