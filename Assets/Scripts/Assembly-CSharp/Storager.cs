@@ -66,6 +66,8 @@ public static class Storager
 
 	public static bool hasKey(string key)
 	{
+		if (Application.isEditor) return PlayerPrefs.HasKey(key);
+
 		bool flag = CryptoPlayerPrefs.HasKey(key);
 		if (!flag)
 		{
@@ -162,9 +164,9 @@ public static class Storager
 	public static string getString(string key, bool useICloud)
 	{
 		if (Application.isEditor)
-		{
-			return PlayerPrefs.GetString(key);
-		}
+        {
+            return PlayerPrefs.GetString(key);
+        }
 		string value;
 		if (_keychainStringCache.TryGetValue(key, out value))
 		{
