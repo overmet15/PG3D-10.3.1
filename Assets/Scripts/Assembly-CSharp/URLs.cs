@@ -7,11 +7,11 @@ public class URLs
 {
 	public const string UrlForTwitterPost = "http://goo.gl/dQMf4n";
 
-	public static string BanURL = "http://pixelserver.com/pixelgun3d-config/getBanList.php";
+	public static string BanURL = "http://127.0.0.2/pixelgun3d-config/getBanList.php";
 
 	private static readonly Lazy<string> _trafficForwardingConfigUrl = new Lazy<string>(InitializeTrafficForwardingConfigUrl);
 
-	public static string Friends = "http://pixelserver.com/action.php";
+	public static string Friends = "http://127.0.0.2/action.php";
 
 	public static string PromoActions
 	{
@@ -19,13 +19,13 @@ public class URLs
 		{
 			if (BuildSettings.BuildTargetPlatform == RuntimePlatform.Android)
 			{
-				return (Defs.AndroidEdition != Defs.RuntimeAndroidEdition.Amazon) ? "http://pixelserver.com/pixelgun3d-config/PromoActions/promo_actions_android.json" : "http://pixelserver.com/pixelgun3d-config/PromoActions/promo_actions_amazon.json";
+				return (Defs.AndroidEdition != Defs.RuntimeAndroidEdition.Amazon) ? "http://127.0.0.2/pixelgun3d-config/PromoActions/promo_actions_android.json" : "http://127.0.0.2/pixelgun3d-config/PromoActions/promo_actions_amazon.json";
 			}
 			if (BuildSettings.BuildTargetPlatform == RuntimePlatform.MetroPlayerX64)
 			{
-				return "http://pixelserver.com/pixelgun3d-config/PromoActions/promo_actions_wp8.json";
+				return "http://127.0.0.2/pixelgun3d-config/PromoActions/promo_actions_wp8.json";
 			}
-			return "http://pixelserver.com/pixelgun3d-config/PromoActions/promo_actions.json";
+			return "http://127.0.0.2/pixelgun3d-config/PromoActions/promo_actions.json";
 		}
 	}
 
@@ -33,7 +33,7 @@ public class URLs
 	{
 		get
 		{
-			return "http://pixelserver.com/pixelgun3d-config/PromoActions/promo_actions_test.json";
+			return "http://127.0.0.2/pixelgun3d-config/PromoActions/promo_actions_test.json";
 		}
 	}
 
@@ -43,17 +43,17 @@ public class URLs
 		{
 			if (Application.platform != RuntimePlatform.Android)
 			{
-				return "http://pixelserver.com/pixelgun3d-config/amazonEvent/amazon-event-test.json";
+				return "http://127.0.0.2/pixelgun3d-config/amazonEvent/amazon-event-test.json";
 			}
 			if (Defs.AndroidEdition != Defs.RuntimeAndroidEdition.Amazon)
 			{
-				return "http://pixelserver.com/pixelgun3d-config/amazonEvent/amazon-event-test.json";
+				return "http://127.0.0.2/pixelgun3d-config/amazonEvent/amazon-event-test.json";
 			}
 			if (Defs.IsDeveloperBuild)
 			{
-				return "http://pixelserver.com/pixelgun3d-config/amazonEvent/amazon-event-test.json";
+				return "http://127.0.0.2/pixelgun3d-config/amazonEvent/amazon-event-test.json";
 			}
-			return "http://pixelserver.com/pixelgun3d-config/amazonEvent/amazon-event.json";
+			return "http://127.0.0.2/pixelgun3d-config/amazonEvent/amazon-event.json";
 		}
 	}
 
@@ -63,27 +63,27 @@ public class URLs
 		{
 			if (Defs.IsDeveloperBuild)
 			{
-				return "http://pixelserver.com/pixelgun3d-config/questConfig/quest-config-test.json";
+				return "http://127.0.0.2/pixelgun3d-config/questConfig/quest-config-test.json";
 			}
 			if (BuildSettings.BuildTargetPlatform == RuntimePlatform.IPhonePlayer)
 			{
-				return "http://pixelserver.com/pixelgun3d-config/questConfig/quest-config-ios.json";
+				return "http://127.0.0.2/pixelgun3d-config/questConfig/quest-config-ios.json";
 			}
 			if (BuildSettings.BuildTargetPlatform == RuntimePlatform.Android)
 			{
 				if (Defs.AndroidEdition == Defs.RuntimeAndroidEdition.GoogleLite)
 				{
-					return "http://pixelserver.com/pixelgun3d-config/questConfig/quest-config-android.json";
+					return "http://127.0.0.2/pixelgun3d-config/questConfig/quest-config-android.json";
 				}
 				if (Defs.AndroidEdition == Defs.RuntimeAndroidEdition.Amazon)
 				{
-					return "http://pixelserver.com/pixelgun3d-config/questConfig/quest-config-amazon.json";
+					return "http://127.0.0.2/pixelgun3d-config/questConfig/quest-config-amazon.json";
 				}
 				return string.Empty;
 			}
 			if (BuildSettings.BuildTargetPlatform == RuntimePlatform.MetroPlayerX64)
 			{
-				return "http://pixelserver.com/pixelgun3d-config/questConfig/quest-config-wp8.json";
+				return "http://127.0.0.2/pixelgun3d-config/questConfig/quest-config-wp8.json";
 			}
 			return string.Empty;
 		}
@@ -95,27 +95,27 @@ public class URLs
 		{
 			if (Defs.IsDeveloperBuild)
 			{
-				return string.Format("http://pixelserver.com/pixelgun3d-config/tutorial-quests/tutorial-quests-{0}.json", "test");
+				return string.Format("http://127.0.0.2/pixelgun3d-config/tutorial-quests/tutorial-quests-{0}.json", "test");
 			}
 			if (BuildSettings.BuildTargetPlatform == RuntimePlatform.IPhonePlayer)
 			{
-				return string.Format("http://pixelserver.com/pixelgun3d-config/tutorial-quests/tutorial-quests-{0}.json", "ios");
+				return string.Format("http://127.0.0.2/pixelgun3d-config/tutorial-quests/tutorial-quests-{0}.json", "ios");
 			}
 			if (BuildSettings.BuildTargetPlatform == RuntimePlatform.Android)
 			{
 				if (Defs.AndroidEdition == Defs.RuntimeAndroidEdition.GoogleLite)
 				{
-					return string.Format("http://pixelserver.com/pixelgun3d-config/tutorial-quests/tutorial-quests-{0}.json", "android");
+					return string.Format("http://127.0.0.2/pixelgun3d-config/tutorial-quests/tutorial-quests-{0}.json", "android");
 				}
 				if (Defs.AndroidEdition == Defs.RuntimeAndroidEdition.Amazon)
 				{
-					return string.Format("http://pixelserver.com/pixelgun3d-config/tutorial-quests/tutorial-quests-{0}.json", "amazon");
+					return string.Format("http://127.0.0.2/pixelgun3d-config/tutorial-quests/tutorial-quests-{0}.json", "amazon");
 				}
 				return string.Empty;
 			}
 			if (BuildSettings.BuildTargetPlatform == RuntimePlatform.MetroPlayerX64)
 			{
-				return string.Format("http://pixelserver.com/pixelgun3d-config/tutorial-quests/tutorial-quests-{0}.json", "wp8");
+				return string.Format("http://127.0.0.2/pixelgun3d-config/tutorial-quests/tutorial-quests-{0}.json", "wp8");
 			}
 			return string.Empty;
 		}
@@ -127,27 +127,27 @@ public class URLs
 		{
 			if (Defs.IsDeveloperBuild)
 			{
-				return "http://pixelserver.com/event_x3_test.json";
+				return "http://127.0.0.2/event_x3_test.json";
 			}
 			if (BuildSettings.BuildTargetPlatform == RuntimePlatform.IPhonePlayer)
 			{
-				return "http://pixelserver.com/event_x3_ios.json";
+				return "http://127.0.0.2/event_x3_ios.json";
 			}
 			if (BuildSettings.BuildTargetPlatform == RuntimePlatform.Android)
 			{
 				if (Defs.AndroidEdition == Defs.RuntimeAndroidEdition.GoogleLite)
 				{
-					return "http://pixelserver.com/event_x3_android.json";
+					return "http://127.0.0.2/event_x3_android.json";
 				}
 				if (Defs.AndroidEdition == Defs.RuntimeAndroidEdition.Amazon)
 				{
-					return "http://pixelserver.com/event_x3_amazon.json";
+					return "http://127.0.0.2/event_x3_amazon.json";
 				}
 				return string.Empty;
 			}
 			if (BuildSettings.BuildTargetPlatform == RuntimePlatform.MetroPlayerX64)
 			{
-				return "http://pixelserver.com/event_x3_wp8.json";
+				return "http://127.0.0.2/event_x3_wp8.json";
 			}
 			return string.Empty;
 		}
@@ -157,7 +157,7 @@ public class URLs
 	{
 		get
 		{
-			return "http://pixelserver.com/pixelgun3d-config/FilterBadWord.json";
+			return "http://127.0.0.2/pixelgun3d-config/FilterBadWord.json";
 		}
 	}
 
@@ -175,27 +175,27 @@ public class URLs
 		{
 			if (Defs.IsDeveloperBuild)
 			{
-				return "http://pixelserver.com/pixelgun3d-config/PixelBookSettings/PixelBookSettings_test.json";
+				return "http://127.0.0.2/pixelgun3d-config/PixelBookSettings/PixelBookSettings_test.json";
 			}
 			if (BuildSettings.BuildTargetPlatform == RuntimePlatform.IPhonePlayer)
 			{
-				return "http://pixelserver.com/pixelgun3d-config/PixelBookSettings/PixelBookSettings_ios.json";
+				return "http://127.0.0.2/pixelgun3d-config/PixelBookSettings/PixelBookSettings_ios.json";
 			}
 			if (BuildSettings.BuildTargetPlatform == RuntimePlatform.Android)
 			{
 				if (Defs.AndroidEdition == Defs.RuntimeAndroidEdition.GoogleLite)
 				{
-					return "http://pixelserver.com/pixelgun3d-config/PixelBookSettings/PixelBookSettings_androd.json";
+					return "http://127.0.0.2/pixelgun3d-config/PixelBookSettings/PixelBookSettings_androd.json";
 				}
 				if (Defs.AndroidEdition == Defs.RuntimeAndroidEdition.Amazon)
 				{
-					return "http://pixelserver.com/pixelgun3d-config/PixelBookSettings/PixelBookSettings_amazon.json";
+					return "http://127.0.0.2/pixelgun3d-config/PixelBookSettings/PixelBookSettings_amazon.json";
 				}
 				return string.Empty;
 			}
 			if (BuildSettings.BuildTargetPlatform == RuntimePlatform.MetroPlayerX64)
 			{
-				return "http://pixelserver.com/pixelgun3d-config/PixelBookSettings/PixelBookSettings_wp.json";
+				return "http://127.0.0.2/pixelgun3d-config/PixelBookSettings/PixelBookSettings_wp.json";
 			}
 			return string.Empty;
 		}
@@ -207,27 +207,27 @@ public class URLs
 		{
 			if (Defs.IsDeveloperBuild)
 			{
-				return "http://pixelserver.com/pixelgun3d-config/BuffSettings/BuffSettings_test" + ((!FlurryPluginWrapper.IsPayingUser()) ? ".json" : "_paying.json");
+				return "http://127.0.0.2/pixelgun3d-config/BuffSettings/BuffSettings_test" + ((!FlurryPluginWrapper.IsPayingUser()) ? ".json" : "_paying.json");
 			}
 			if (BuildSettings.BuildTargetPlatform == RuntimePlatform.IPhonePlayer)
 			{
-				return "http://pixelserver.com/pixelgun3d-config/BuffSettings/BuffSettings_ios" + ((!FlurryPluginWrapper.IsPayingUser()) ? ".json" : "_paying.json");
+				return "http://127.0.0.2/pixelgun3d-config/BuffSettings/BuffSettings_ios" + ((!FlurryPluginWrapper.IsPayingUser()) ? ".json" : "_paying.json");
 			}
 			if (BuildSettings.BuildTargetPlatform == RuntimePlatform.Android)
 			{
 				if (Defs.AndroidEdition == Defs.RuntimeAndroidEdition.GoogleLite)
 				{
-					return "http://pixelserver.com/pixelgun3d-config/BuffSettings/BuffSettings_android" + ((!FlurryPluginWrapper.IsPayingUser()) ? ".json" : "_paying.json");
+					return "http://127.0.0.2/pixelgun3d-config/BuffSettings/BuffSettings_android" + ((!FlurryPluginWrapper.IsPayingUser()) ? ".json" : "_paying.json");
 				}
 				if (Defs.AndroidEdition == Defs.RuntimeAndroidEdition.Amazon)
 				{
-					return "http://pixelserver.com/pixelgun3d-config/BuffSettings/BuffSettings_amazon" + ((!FlurryPluginWrapper.IsPayingUser()) ? ".json" : "_paying.json");
+					return "http://127.0.0.2/pixelgun3d-config/BuffSettings/BuffSettings_amazon" + ((!FlurryPluginWrapper.IsPayingUser()) ? ".json" : "_paying.json");
 				}
 				return string.Empty;
 			}
 			if (BuildSettings.BuildTargetPlatform == RuntimePlatform.MetroPlayerX64)
 			{
-				return "http://pixelserver.com/pixelgun3d-config/BuffSettings/BuffSettings_WP" + ((!FlurryPluginWrapper.IsPayingUser()) ? ".json" : "_paying.json");
+				return "http://127.0.0.2/pixelgun3d-config/BuffSettings/BuffSettings_WP" + ((!FlurryPluginWrapper.IsPayingUser()) ? ".json" : "_paying.json");
 			}
 			return string.Empty;
 		}
@@ -239,27 +239,27 @@ public class URLs
 		{
 			if (Defs.IsDeveloperBuild)
 			{
-				return "http://pixelserver.com/pixelgun3d-config/BuffSettings1031/BuffSettings_test" + ((!FlurryPluginWrapper.IsPayingUser()) ? ".json" : "_paying.json");
+				return "http://127.0.0.2/pixelgun3d-config/BuffSettings1031/BuffSettings_test" + ((!FlurryPluginWrapper.IsPayingUser()) ? ".json" : "_paying.json");
 			}
 			if (BuildSettings.BuildTargetPlatform == RuntimePlatform.IPhonePlayer)
 			{
-				return "http://pixelserver.com/pixelgun3d-config/BuffSettings1031/BuffSettings_ios" + ((!FlurryPluginWrapper.IsPayingUser()) ? ".json" : "_paying.json");
+				return "http://127.0.0.2/pixelgun3d-config/BuffSettings1031/BuffSettings_ios" + ((!FlurryPluginWrapper.IsPayingUser()) ? ".json" : "_paying.json");
 			}
 			if (BuildSettings.BuildTargetPlatform == RuntimePlatform.Android)
 			{
 				if (Defs.AndroidEdition == Defs.RuntimeAndroidEdition.GoogleLite)
 				{
-					return "http://pixelserver.com/pixelgun3d-config/BuffSettings1031/BuffSettings_android" + ((!FlurryPluginWrapper.IsPayingUser()) ? ".json" : "_paying.json");
+					return "http://127.0.0.2/pixelgun3d-config/BuffSettings1031/BuffSettings_android" + ((!FlurryPluginWrapper.IsPayingUser()) ? ".json" : "_paying.json");
 				}
 				if (Defs.AndroidEdition == Defs.RuntimeAndroidEdition.Amazon)
 				{
-					return "http://pixelserver.com/pixelgun3d-config/BuffSettings1031/BuffSettings_amazon" + ((!FlurryPluginWrapper.IsPayingUser()) ? ".json" : "_paying.json");
+					return "http://127.0.0.2/pixelgun3d-config/BuffSettings1031/BuffSettings_amazon" + ((!FlurryPluginWrapper.IsPayingUser()) ? ".json" : "_paying.json");
 				}
 				return string.Empty;
 			}
 			if (BuildSettings.BuildTargetPlatform == RuntimePlatform.MetroPlayerX64)
 			{
-				return "http://pixelserver.com/pixelgun3d-config/BuffSettings1031/BuffSettings_WP" + ((!FlurryPluginWrapper.IsPayingUser()) ? ".json" : "_paying.json");
+				return "http://127.0.0.2/pixelgun3d-config/BuffSettings1031/BuffSettings_WP" + ((!FlurryPluginWrapper.IsPayingUser()) ? ".json" : "_paying.json");
 			}
 			return string.Empty;
 		}
@@ -271,27 +271,27 @@ public class URLs
 		{
 			if (Defs.IsDeveloperBuild)
 			{
-				return "http://pixelserver.com/pixelgun3d-config/lobbyNews/LobbyNews_test.json";
+				return "http://127.0.0.2/pixelgun3d-config/lobbyNews/LobbyNews_test.json";
 			}
 			if (BuildSettings.BuildTargetPlatform == RuntimePlatform.IPhonePlayer)
 			{
-				return "http://pixelserver.com/pixelgun3d-config/lobbyNews/LobbyNews_ios.json";
+				return "http://127.0.0.2/pixelgun3d-config/lobbyNews/LobbyNews_ios.json";
 			}
 			if (BuildSettings.BuildTargetPlatform == RuntimePlatform.Android)
 			{
 				if (Defs.AndroidEdition == Defs.RuntimeAndroidEdition.GoogleLite)
 				{
-					return "http://pixelserver.com/pixelgun3d-config/lobbyNews/LobbyNews_androd.json";
+					return "http://127.0.0.2/pixelgun3d-config/lobbyNews/LobbyNews_androd.json";
 				}
 				if (Defs.AndroidEdition == Defs.RuntimeAndroidEdition.Amazon)
 				{
-					return "http://pixelserver.com/pixelgun3d-config/lobbyNews/LobbyNews_amazon.json";
+					return "http://127.0.0.2/pixelgun3d-config/lobbyNews/LobbyNews_amazon.json";
 				}
 				return string.Empty;
 			}
 			if (BuildSettings.BuildTargetPlatform == RuntimePlatform.MetroPlayerX64)
 			{
-				return "http://pixelserver.com/pixelgun3d-config/lobbyNews/LobbyNews_wp.json";
+				return "http://127.0.0.2/pixelgun3d-config/lobbyNews/LobbyNews_wp.json";
 			}
 			return string.Empty;
 		}
@@ -305,29 +305,29 @@ public class URLs
 			{
 				if (BuildSettings.BuildTargetPlatform == RuntimePlatform.IPhonePlayer)
 				{
-					return "http://pixelserver.com/pixelgun3d-config/advert/advert_ios_TEST.json";
+					return "http://127.0.0.2/pixelgun3d-config/advert/advert_ios_TEST.json";
 				}
 				if (BuildSettings.BuildTargetPlatform == RuntimePlatform.Android)
 				{
 					if (Defs.AndroidEdition == Defs.RuntimeAndroidEdition.Amazon)
 					{
-						return "http://pixelserver.com/pixelgun3d-config/advert/advert_amazon_TEST.json";
+						return "http://127.0.0.2/pixelgun3d-config/advert/advert_amazon_TEST.json";
 					}
-					return "http://pixelserver.com/pixelgun3d-config/advert/advert_android_TEST.json";
+					return "http://127.0.0.2/pixelgun3d-config/advert/advert_android_TEST.json";
 				}
 				return string.Empty;
 			}
 			if (BuildSettings.BuildTargetPlatform == RuntimePlatform.IPhonePlayer)
 			{
-				return "http://pixelserver.com/pixelgun3d-config/advert/advert_ios.json";
+				return "http://127.0.0.2/pixelgun3d-config/advert/advert_ios.json";
 			}
 			if (BuildSettings.BuildTargetPlatform == RuntimePlatform.Android)
 			{
 				if (Defs.AndroidEdition == Defs.RuntimeAndroidEdition.Amazon)
 				{
-					return "http://pixelserver.com/pixelgun3d-config/advert/advert_amazon.json";
+					return "http://127.0.0.2/pixelgun3d-config/advert/advert_amazon.json";
 				}
-				return "http://pixelserver.com/pixelgun3d-config/advert/advert_android.json";
+				return "http://127.0.0.2/pixelgun3d-config/advert/advert_android.json";
 			}
 			return string.Empty;
 		}
@@ -339,27 +339,27 @@ public class URLs
 		{
 			if (Defs.IsDeveloperBuild)
 			{
-				return "http://pixelserver.com/pixelgun3d-config/bestBuy/best_buy_test.json";
+				return "http://127.0.0.2/pixelgun3d-config/bestBuy/best_buy_test.json";
 			}
 			if (BuildSettings.BuildTargetPlatform == RuntimePlatform.IPhonePlayer)
 			{
-				return "http://pixelserver.com/pixelgun3d-config/bestBuy/best_buy_ios.json";
+				return "http://127.0.0.2/pixelgun3d-config/bestBuy/best_buy_ios.json";
 			}
 			if (BuildSettings.BuildTargetPlatform == RuntimePlatform.Android)
 			{
 				if (Defs.AndroidEdition == Defs.RuntimeAndroidEdition.GoogleLite)
 				{
-					return "http://pixelserver.com/pixelgun3d-config/bestBuy/best_buy_android.json";
+					return "http://127.0.0.2/pixelgun3d-config/bestBuy/best_buy_android.json";
 				}
 				if (Defs.AndroidEdition == Defs.RuntimeAndroidEdition.Amazon)
 				{
-					return "http://pixelserver.com/pixelgun3d-config/bestBuy/best_buy_amazon.json";
+					return "http://127.0.0.2/pixelgun3d-config/bestBuy/best_buy_amazon.json";
 				}
 				return string.Empty;
 			}
 			if (BuildSettings.BuildTargetPlatform == RuntimePlatform.MetroPlayerX64)
 			{
-				return "http://pixelserver.com/pixelgun3d-config/bestBuy/best_buy_wp8.json";
+				return "http://127.0.0.2/pixelgun3d-config/bestBuy/best_buy_wp8.json";
 			}
 			return string.Empty;
 		}
@@ -371,27 +371,27 @@ public class URLs
 		{
 			if (Defs.IsDeveloperBuild)
 			{
-				return "http://pixelserver.com/pixelgun3d-config/daysOfValor/days_of_valor_test.json";
+				return "http://127.0.0.2/pixelgun3d-config/daysOfValor/days_of_valor_test.json";
 			}
 			if (BuildSettings.BuildTargetPlatform == RuntimePlatform.IPhonePlayer)
 			{
-				return "http://pixelserver.com/pixelgun3d-config/daysOfValor/days_of_valor_ios.json";
+				return "http://127.0.0.2/pixelgun3d-config/daysOfValor/days_of_valor_ios.json";
 			}
 			if (BuildSettings.BuildTargetPlatform == RuntimePlatform.Android)
 			{
 				if (Defs.AndroidEdition == Defs.RuntimeAndroidEdition.GoogleLite)
 				{
-					return "http://pixelserver.com/pixelgun3d-config/daysOfValor/days_of_valor_android.json";
+					return "http://127.0.0.2/pixelgun3d-config/daysOfValor/days_of_valor_android.json";
 				}
 				if (Defs.AndroidEdition == Defs.RuntimeAndroidEdition.Amazon)
 				{
-					return "http://pixelserver.com/pixelgun3d-config/daysOfValor/days_of_valor_amazon.json";
+					return "http://127.0.0.2/pixelgun3d-config/daysOfValor/days_of_valor_amazon.json";
 				}
 				return string.Empty;
 			}
 			if (BuildSettings.BuildTargetPlatform == RuntimePlatform.MetroPlayerX64)
 			{
-				return "http://pixelserver.com/pixelgun3d-config/daysOfValor/days_of_valor_wp8.json";
+				return "http://127.0.0.2/pixelgun3d-config/daysOfValor/days_of_valor_wp8.json";
 			}
 			return string.Empty;
 		}
@@ -403,27 +403,27 @@ public class URLs
 		{
 			if (Defs.IsDeveloperBuild)
 			{
-				return "http://pixelserver.com/pixelgun3d-config/premiumAccount/premium_account_test.json";
+				return "http://127.0.0.2/pixelgun3d-config/premiumAccount/premium_account_test.json";
 			}
 			if (BuildSettings.BuildTargetPlatform == RuntimePlatform.IPhonePlayer)
 			{
-				return "http://pixelserver.com/pixelgun3d-config/premiumAccount/premium_account_ios.json";
+				return "http://127.0.0.2/pixelgun3d-config/premiumAccount/premium_account_ios.json";
 			}
 			if (BuildSettings.BuildTargetPlatform == RuntimePlatform.Android)
 			{
 				if (Defs.AndroidEdition == Defs.RuntimeAndroidEdition.GoogleLite)
 				{
-					return "http://pixelserver.com/pixelgun3d-config/premiumAccount/premium_account_android.json";
+					return "http://127.0.0.2/pixelgun3d-config/premiumAccount/premium_account_android.json";
 				}
 				if (Defs.AndroidEdition == Defs.RuntimeAndroidEdition.Amazon)
 				{
-					return "http://pixelserver.com/pixelgun3d-config/premiumAccount/premium_account_amazon.json";
+					return "http://127.0.0.2/pixelgun3d-config/premiumAccount/premium_account_amazon.json";
 				}
 				return string.Empty;
 			}
 			if (BuildSettings.BuildTargetPlatform == RuntimePlatform.MetroPlayerX64)
 			{
-				return "http://pixelserver.com/pixelgun3d-config/premiumAccount/premium_account_wp8.json";
+				return "http://127.0.0.2/pixelgun3d-config/premiumAccount/premium_account_wp8.json";
 			}
 			return string.Empty;
 		}
@@ -434,7 +434,7 @@ public class URLs
 		get
 		{
 			int num = ExpController.GetOurTier() + 1;
-			return "http://pixelserver.com/mapstats/" + GlobalGameController.MultiplayerProtocolVersion + "_" + (int)(ConnectSceneNGUIController.myPlatformConnect - 1) + "_" + num + "_mapstat.json";
+			return "http://127.0.0.2/mapstats/" + GlobalGameController.MultiplayerProtocolVersion + "_" + (int)(ConnectSceneNGUIController.myPlatformConnect - 1) + "_" + num + "_mapstat.json";
 		}
 	}
 
@@ -442,24 +442,24 @@ public class URLs
 	{
 		if (Defs.IsDeveloperBuild)
 		{
-			return string.Format("http://pixelserver.com/pixelgun3d-config/trafficForwarding/traffic_forwarding_{0}.json", "test");
+			return string.Format("http://127.0.0.2/pixelgun3d-config/trafficForwarding/traffic_forwarding_{0}.json", "test");
 		}
 		switch (BuildSettings.BuildTargetPlatform)
 		{
 		case RuntimePlatform.IPhonePlayer:
-			return string.Format("http://pixelserver.com/pixelgun3d-config/trafficForwarding/traffic_forwarding_{0}.json", "ios");
+			return string.Format("http://127.0.0.2/pixelgun3d-config/trafficForwarding/traffic_forwarding_{0}.json", "ios");
 		case RuntimePlatform.Android:
 			switch (Defs.AndroidEdition)
 			{
 			case Defs.RuntimeAndroidEdition.GoogleLite:
-				return string.Format("http://pixelserver.com/pixelgun3d-config/trafficForwarding/traffic_forwarding_{0}.json", "android");
+				return string.Format("http://127.0.0.2/pixelgun3d-config/trafficForwarding/traffic_forwarding_{0}.json", "android");
 			case Defs.RuntimeAndroidEdition.Amazon:
-				return string.Format("http://pixelserver.com/pixelgun3d-config/trafficForwarding/traffic_forwarding_{0}.json", "amazon");
+				return string.Format("http://127.0.0.2/pixelgun3d-config/trafficForwarding/traffic_forwarding_{0}.json", "amazon");
 			default:
 				return string.Empty;
 			}
 		case RuntimePlatform.MetroPlayerX64:
-			return string.Format("http://pixelserver.com/pixelgun3d-config/trafficForwarding/traffic_forwarding_{0}.json", "wp8");
+			return string.Format("http://127.0.0.2/pixelgun3d-config/trafficForwarding/traffic_forwarding_{0}.json", "wp8");
 		default:
 			return string.Empty;
 		}
